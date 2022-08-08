@@ -1,0 +1,2197 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+
+% Convert the Lyx colors into more pleasent colors:
+\usepackage{xcolor}
+\definecolor{blue}{RGB}{14,107,217}
+\definecolor{green}{RGB}{0,158,40}
+\definecolor{red}{RGB}{235,16,16}
+\definecolor{brown}{RGB}{164,66,0}
+\definecolor{orange}{RGB}{231,135,26}
+\definecolor{purple}{RGB}{94,53,177}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing double
+\align center
+
+\series bold
+\size huge
+)
+\numeric on
+67329
+\numeric off
+( 
+\begin_inset Formula $IML$
+\end_inset
+
+ | תרגיל
+\family roman
+\shape up
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם: רונאל חרדים | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+208917641
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+תיאורטי:
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נוכיח כי 
+\begin_inset Formula $Ker(\mathbf{X})=Ker\left(\mathbf{X}^{\top}\mathbf{X}\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $u\in Ker(\mathbf{X})$
+\end_inset
+
+ שונה מ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אזי מתקיים: 
+\begin_inset Formula 
+\[
+Xu=0\Rightarrow\mathbf{X}^{\top}\mathbf{X}u=0
+\]
+
+\end_inset
+
+ ולכן מתקיים גם כי 
+\begin_inset Formula $u\in Ker\left(\mathbf{X}^{\top}\mathbf{X}\right)$
+\end_inset
+
+ ולכן מתקיים: 
+\begin_inset Formula 
+\[
+0=\mathbf{X}^{\top}\mathbf{X}u=u^{\top}\mathbf{X}^{\top}\mathbf{X}u=\|\mathbf{X}u\|^{2}
+\]
+
+\end_inset
+
+מתכונות הנורמה נובע כי הנורמה שווה ל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אמ
+\begin_inset Quotes erd
+\end_inset
+
+מ הווקטור הוא ווקטור ה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ומיכוון שהגדרנו שהוא שונה מ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אזי הטענה מתקיימת כנדרש.
+ 
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נוכיח כי עבור מטריצה ריבועית מתקיים 
+\begin_inset Formula $A:Im\left(A^{\top}\right)=Ker(A)^{\perp}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $b\in Im\left(A^{\top}\right)$
+\end_inset
+
+ אזי קיים 
+\begin_inset Formula $x\in R^{m}$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $'A^{\top}x=b$
+\end_inset
+
+יהי 
+\begin_inset Formula $w\in Ker\left(A^{\top}\right)$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+A^{\top}w=0\Rightarrow0=\left\langle A^{\top}w,x\right\rangle =\langle w,Ax\rangle=\langle w,b\rangle
+\]
+
+\end_inset
+
+ לכן 
+\begin_inset Formula $Im(A)\subset Ker\left(A^{\top}\right)^{\perp}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בכיוון השני נניח כי 
+\begin_inset Formula $b\notin Im(A)$
+\end_inset
+
+ ונראה כי 
+\begin_inset Formula $b\notin Ker\left(A^{\top}\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+מספיק למצוא ווקטור 
+\begin_inset Formula $c\in Ker\left(A^{\top}\right)$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $\left\langle b,c\right\rangle \neq0$
+\end_inset
+
+, מההנחה ש 
+\begin_inset Formula $b\notin Im(A)$
+\end_inset
+
+ חייב להיות ש 
+\begin_inset Formula $b$
+\end_inset
+
+ הוא רכיב ב 
+\begin_inset Formula $Im\left(A^{\top}\right)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $c\in Im(A)^{\perp}$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $\left\langle b,c\right\rangle \neq0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כעת מכיוון ש 
+\begin_inset Formula $c\in Im(A)^{\perp}$
+\end_inset
+
+ אנו יודעים כי הוא אורתוגונלי לכל ווקטור בתמונה של 
+\begin_inset Formula $A$
+\end_inset
+
+ בייחוד 
+\begin_inset Formula $\left\langle c,AA^{\top}c\right\rangle =0$
+\end_inset
+
+ לכן:
+\begin_inset Formula 
+\[
+\left\Vert A^{\top}c\right\Vert ^{2}=\left\langle A^{\top}c,A^{\top}c\right\rangle =\left\langle c,AA^{\top}c\right\rangle =0
+\]
+
+\end_inset
+
+ לכן: 
+\begin_inset Formula $A^{\top}c=0\Rightarrow c\in Ker\left(A^{\top}\right)$
+\end_inset
+
+כנדרש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Standard
+מכיוון ש 
+\begin_inset Formula $X$
+\end_inset
+
+ אנינה הפיכה למערכת המשוואות אין פתרון או שיש לה אינסוף פתרונות.
+ בנוסף אנו יודעים כי יש פתרון יחיד אמ
+\begin_inset Quotes erd
+\end_inset
+
+מ ט נמצא בתמונה של 
+\begin_inset Formula $X$
+\end_inset
+
+.
+ לכן נובע מכך שלמערכת יש אינסוף פתרונות ומשאלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+: 
+\begin_inset Formula 
+\[
+y\in Im(X)\iff y\in Ker(\mathbf{X})^{\perp}y\perp\iff Ker(\mathbf{X})^{\perp}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\end_layout
+
+\begin_layout Standard
+אנו מניחים כי 
+\begin_inset Formula $X^{T}X$
+\end_inset
+
+ אינינה הפיכה.
+ משאלה קודמת אנו יודעים כי למערכת יש אינסוף פתרונות אמ
+\begin_inset Quotes erd
+\end_inset
+
+מ 
+\begin_inset Formula $\mathbf{X}^{\top}\mathbf{y}\perp Ker\left(\mathbf{X}^{\top}\mathbf{X}\right)$
+\end_inset
+
+ בנוסף הוכחנו כי 
+\begin_inset Formula $Ker(\mathbf{X})=Ker\left(\mathbf{X}^{\top}\mathbf{X}\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+לכן מספיק להראות כי 
+\begin_inset Formula $\mathbf{X}^{\top}\mathbf{y}\perp Ker\left(\mathbf{X}\right)$
+\end_inset
+
+.
+ לכן אם 
+\begin_inset Formula $u\in Ker(X)$
+\end_inset
+
+ אזי 
+\begin_inset Formula $\left\langle u,\mathbf{X}^{\top}\mathbf{y}\right\rangle =\langle\mathbf{X}u,\mathbf{y}\rangle=0$
+\end_inset
+
+ .
+ א
+\begin_inset Quotes erd
+\end_inset
+
+כ הוכחנו כי לצורה הנורמלית חייב להיות פתרון יחודי אם 
+\begin_inset Formula $\mathbf{X}^{\top}\mathbf{X}$
+\end_inset
+
+ הפיכה, או אינסוף פתרונות.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+)א(
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נראה כי 
+\begin_inset Formula $P$
+\end_inset
+
+ סימטרית, ומתקיים 
+\begin_inset Formula $P^{T}=P$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p$
+\end_inset
+
+ היא סכום של מטריצות סימטריות ולכן היא סימטרית כנדרש.
+\end_layout
+
+\begin_layout Subsection*
+)ב(
+\end_layout
+
+\begin_layout Standard
+נוכיח כי הע
+\begin_inset Quotes erd
+\end_inset
+
+ע של 
+\begin_inset Formula $P$
+\end_inset
+
+ הם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0,1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+וגם ווקטורי הבסיס האורתונורמלים הם ו
+\begin_inset Quotes erd
+\end_inset
+
+ע של ע
+\begin_inset Quotes erd
+\end_inset
+
+ע
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Pv_{j}=\sum_{i=1}^{k}v_{i}v_{i}^{T}v_{j}=\sum_{i=1}^{k}v_{i}\delta_{ij}=v_{j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+)ג(
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נראה כי מתקיים לכל 
+\begin_inset Formula $v\in V$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $P\mathbf{v}=\mathbf{v}$
+\end_inset
+
+:
+\series default
+
+\begin_inset Formula 
+\[
+Pv_{j}=\sum_{i=1}^{k}v_{i}v_{i}^{\top}v_{j}=\sum_{i=1}^{k}v_{i}\delta_{ij}=v_{j}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsection*
+)ד(
+\end_layout
+
+\begin_layout Standard
+נוכיח כי 
+\begin_inset Formula $P^{2}=P$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+P^{2}=UDU^{T}UDU^{T}=UDDU^{T}=UDU^{T}=P
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+)ה(
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נוכיח כי 
+\begin_inset Formula $(I-P)P=0$
+\end_inset
+
+: 
+\begin_inset Formula 
+\[
+(I-P)P=\left(UIU^{\top}-UDU^{\top}\right)UDU^{\top}=U(I-D)U^{\top}UDU^{\top}=U(I-D)DU^{\top}=U(D-D)U^{\top}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+ראשית נוכיח כי:
+\begin_inset Formula 
+\[
+\left(\mathbf{X}^{\top}\mathbf{X}\right)^{-1}=UD^{-1}U^{\top},\text{ where }D=\Sigma\Sigma^{\top}
+\]
+
+\end_inset
+
+ ולכן:
+\begin_inset Formula 
+\[
+\mathbf{X}^{\top}\mathbf{X}=\left(U\Sigma V^{\top}\right)\left(U\Sigma V^{\top}\right)^{\top}=U\Sigma V^{\top}V\Sigma^{\top}U^{\top}=U\Sigma\Sigma^{\top}U^{\top}=UDU^{\top}
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\mathbf{X}^{\top}\mathbf{X}\left(UD^{-1}U^{\top}\right)=UDU^{\top}UD^{-1}U^{\top}=UDD^{-1}U^{\top}=UU^{\top}=I
+\]
+
+\end_inset
+
+ כעת נראה כי 
+\begin_inset Formula $\left(\mathbf{XX}^{\top}\right)^{-1}\mathbf{X}^{\top}=\mathbf{X}^{\top\dagger}$
+\end_inset
+
+: 
+\begin_inset Formula 
+\[
+\left(\mathbf{X}^{\top}\mathbf{X}\right)^{-1}\mathbf{X}=UD^{-1}U^{\top}U\Sigma V^{\top}=UD^{-1}\Sigma V^{\top}=U\Sigma^{\dagger\top}V^{\top}=\mathbf{X}^{\top\dagger}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+7
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+פתרון:
+\end_layout
+
+\begin_layout Standard
+הדרגה של 
+\begin_inset Formula $X$
+\end_inset
+
+ שווה ל 
+\begin_inset Formula $span\left\{ x_{1},....x_{m}\right\} $
+\end_inset
+
+ מפשט פירוק 
+\begin_inset Formula $SVD$
+\end_inset
+
+ נובע כי הדרגה של 
+\begin_inset Formula $X$
+\end_inset
+
+ שווה לדרגה של 
+\begin_inset Formula $X^{T}X$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן 
+\begin_inset Formula $\mathbf{x}_{1},\ldots,\mathbf{x}_{m}span\mathbb{R}^{d}$
+\end_inset
+
+ אמ
+\begin_inset Quotes erd
+\end_inset
+
+מ דרגה של 
+\begin_inset Formula $X^{T}X$
+\end_inset
+
+ שןןה ל 
+\begin_inset Formula $d$
+\end_inset
+
+.
+ מכיוון ש 
+\begin_inset Formula $X^{T}X$
+\end_inset
+
+ היא מטריצה מהצורה 
+\begin_inset Formula $d\cdot d$
+\end_inset
+
+ היא הפיכה אמ
+\begin_inset Quotes erd
+\end_inset
+
+מ הדרגה היא 
+\begin_inset Formula $d$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+8
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $\mathbf{X}=U\Sigma V^{\top}$
+\end_inset
+
+ הפירוק של 
+\begin_inset Formula $X$
+\end_inset
+
+, ונגדיר את הדרגה של 
+\begin_inset Formula $X$
+\end_inset
+
+ להיות 
+\begin_inset Formula $r$
+\end_inset
+
+.
+ נכתוב באופם הבא:
+\begin_inset Formula 
+\[
+V=\left[\begin{array}{ll}
+V_{1} & V_{2}\end{array}\right],\quad U=\left[\begin{array}{ll}
+U_{1} & U_{2}\end{array}\right],\quad\Sigma=\left[\begin{array}{cc}
+\Sigma_{1} & 0\\
+0 & 0
+\end{array}\right]
+\]
+
+\end_inset
+
+כאשר 
+\begin_inset Formula $V_{1},U_{1}$
+\end_inset
+
+ הן 
+\begin_inset Formula $r$
+\end_inset
+
+ השורות הראשונות ו 
+\begin_inset Formula $V_{2},U_{2}$
+\end_inset
+
+ שאר השורות של 
+\begin_inset Formula $V,U$
+\end_inset
+
+ ו 
+\begin_inset Formula $\Sigma_{1}$
+\end_inset
+
+ היא מטריצה דיאגונלית עם ערכים שונים מ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+בהינתן 
+\begin_inset Formula $w$
+\end_inset
+
+ נגדיר 
+\begin_inset Formula 
+\[
+b=U^{\top}w\text{,\ \  }b_{1}=U_{1}^{\top}w,b_{2}=U_{2}^{\top}w\ \ \Rightarrow\ \negmedspace\text{ }b=\left[\begin{array}{l}
+b_{1}\\
+b_{2}
+\end{array}\right]
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula $U$
+\end_inset
+
+ היא מטריצה אורתוגונלית ולכן איזומטרית, לכן אנו מקבלים 
+\begin_inset Formula $||w||=||b||$
+\end_inset
+
+ כעת אנו יכולים לשכתב את הבעיה שלנו ולהראות שיש ל 
+\begin_inset Formula $b$
+\end_inset
+
+ נורמה מינימלית, מכיוון שגם 
+\begin_inset Formula $V$
+\end_inset
+
+ איזומטרית, נקבל:
+\begin_inset Formula 
+\[
+\left\Vert y-X^{\top}w\right\Vert ^{2}=\left\Vert y-V\Sigma U^{\top}w\right\Vert ^{2}=\left\Vert V\left(V^{\top}y-\Sigma b\right)\right\Vert ^{2}=\left\Vert V^{\top}y-\Sigma b\right\Vert ^{2}=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\left\Vert \left[\begin{array}{ll}
+V_{1} & V_{2}\end{array}\right]^{\top}y-\left[\begin{array}{cc}
+\Sigma_{1} & 0\\
+0 & 0
+\end{array}\right]\left[\begin{array}{l}
+b_{1}\\
+b_{2}
+\end{array}\right]\right\Vert ^{2}=\left\Vert V_{1}^{\top}y-\Sigma_{1}b_{1}\right\Vert ^{2}+\left\Vert V_{2}^{\top}y\right\Vert ^{2}
+\]
+
+\end_inset
+
+ לכן, בכדי למצוא פתרון מינימלי 
+\begin_inset Formula $||y-Xw||$
+\end_inset
+
+ נפתור את 
+\begin_inset Formula 
+\[
+\Sigma_{1}b_{1}-V_{1}^{\top}y=0\Longleftrightarrow\Sigma_{1}b_{1}=V_{1}^{\top}y\Longleftrightarrow b_{1}=\Sigma_{1}^{-1}V_{1}^{\top}y.
+\]
+
+\end_inset
+
+נמנמם את 
+\begin_inset Formula $b$
+\end_inset
+
+כך: 
+\begin_inset Formula 
+\[
+b_{1}=\Sigma_{1}^{-1}V_{1}^{\top}y\quad\text{ and }\quad b_{2}=0
+\]
+
+\end_inset
+
+ אנו יודעים ש 
+\begin_inset Formula $\widehat{\mathbf{w}}=\mathbf{X}^{\top\dagger}\mathbf{y}$
+\end_inset
+
+ ולכן: 
+\begin_inset Formula 
+\[
+\begin{gathered}U_{1}^{\top}\hat{\mathbf{w}}=U_{1}^{\top}X^{\top\dagger}\mathbf{y}=U_{1}^{\top}U_{1}\Sigma_{1}^{-1}V_{1}^{\top}y=\Sigma_{1}^{-1}V_{1}^{\top}y\\
+\\
+\end{gathered}
+\]
+
+\end_inset
+
+וגם
+\begin_inset Formula 
+\[
+U_{2}^{\top}\hat{\mathbf{w}}=U_{2}^{\top}X^{\top\dagger}\mathbf{y}=U_{1}^{\top}U_{1}\Sigma_{1}^{-1}V_{1}^{\top}y=0
+\]
+
+\end_inset
+
+ לכל פתרון אחר 
+\begin_inset Formula $\bar{w}$
+\end_inset
+
+אנו מקבלים כי התנאי הראשון חייב להתקיים אך התנאי השני לא חייב להתקיים בהכרח
+ לכן 
+\begin_inset Formula $\|\widehat{\mathbf{w}}\|\leq\|\overline{\mathbf{W}}\|$
+\end_inset
+
+ כנדרש.
+ 
+\end_layout
+
+\begin_layout Part
+\begin_inset Formula $LinearRegression$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+התכונות שהחלטתי לא לשמור הן: 
+\begin_inset Formula $'id',date,'price','zipcode'$
+\end_inset
+
+ משום שהן לא מנבאות את מחיר הדירה.
+\end_layout
+
+\begin_layout Standard
+תכונות קטגוריות כגון מיקוד ותאריך החלפתי למשתנה בוליאני.
+\end_layout
+
+\begin_layout Standard
+בדקתי אם קיימים ערכים לא חוקיים כגון ערכי 
+\begin_inset Formula $null$
+\end_inset
+
+ בת
+\begin_inset Quotes erd
+\end_inset
+
+ז ובתאריך, בנוסף בדקתי כי שאר הערכים שצריכים להופיע חיוביים כגון מחיר וגודל
+ במ
+\begin_inset Quotes erd
+\end_inset
+
+ר יהיו גדולים מ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+לגבי שאר הערכים בעלי טווח מסויים דאגתי שהם יקיימו את התנאים וישארו בטווח.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נבחר שתי תכונות ונסיק את הדרוש:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הגרף הראשון הוא גרף של היום בחודש שבו נמכרה הדירה - הראשון לחודש:
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename 01.png
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+הגרף השני מייצג את גודל הבית במ
+\begin_inset Quotes erd
+\end_inset
+
+ר:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename sqft_living.png
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נשים לב כי הפרמטר 
+\begin_inset Formula $p$
+\end_inset
+
+ של התכונה הראשונה שואף ל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+משמע שאין קורלציה בין 
+\begin_inset Formula $X$
+\end_inset
+
+ ל 
+\begin_inset Formula $y$
+\end_inset
+
+, אך בגרף השני הפרמטר 
+\begin_inset Formula $p$
+\end_inset
+
+ שואף ל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+משמע שככל ׁ עליה ב 
+\begin_inset Formula $X$
+\end_inset
+
+ יש עליה ב 
+\begin_inset Formula $y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בנוסף: ניתן לראות מהגרף השני כי יש קורלציה בין 
+\begin_inset Formula $x,y$
+\end_inset
+
+ ובגרף הראשון אין כל קורלציה בניהם.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הגרף הוא הגרף הבא:
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename linear 4.png
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+אנו רואים כי ככל שמספר הדגימות גדל ההפסד קטן ובנוסף ה 
+\begin_inset Formula $std$
+\end_inset
+
+ קטן גם כן ככל שמספר הדגימות עולה.
+\end_layout
+
+\begin_layout Part
+\begin_inset Formula $Polynomial\ Fitting$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הגרף לפי השנים הוא הגרף הבא: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename poly Q2.1.jpg
+	scale 50
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+דרגת הפולינום שעשויה להתאים לגרף זה היא 
+\begin_inset Formula $k=3$
+\end_inset
+
+.
+ ניתן לראות כי הפולינום לא מורכב מידיי.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+הגרף המייצג את החודשים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename poly Q2.2.jpg
+	scale 50
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+יש חודשים בהם הביצועים יהיו טובים יותר.
+\end_layout
+
+\begin_layout Standard
+בחודשים בהם סטיית התקן גבוהה זאת אומרת שאנו רודפים אחרי הרעש, ולכן בחודשים
+ אלו החיזוי לא יהיה מדוייק, לעומת זאת בחודשים בהם סטיית התקן נמוכה אנו נוכל
+ לחזות טוב יותר.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename poly Q3.1.jpg
+	scale 50
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+אכן למעט דרום אפריקה כל המדינות חולקות דפוס דומה, המודל של ישראל עשוי לעבוד
+ עבור הולנד וירדן.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+הגרף שקיבלנו הוא הגרף הבא:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename poly Q4.png
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ניתן לראות כי 
+\begin_inset Formula $k=5$
+\end_inset
+
+ היא דרגת הפולינום שתביא לנו את התחיזוי הטוב ביותר.
+ 
+\begin_inset Newline newline
+\end_inset
+
+בנוסף מיקום העיר יוכל לתת לנו חיזוי טוב, יחד עם היום בשנה.
+ 
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+הגרף שקיבלנו הוא:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename poly Q5.png
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+נשים לב כי ירדן שהיא מדינה קרובה אלינו ומזג האוויר דומה אכן קיבלה 
+\begin_inset Formula $loss$
+\end_inset
+
+ נמוך לפי חיזוי על ישראל, בעוד מדינות רחוקות קיבלו חיזוי גרוע.
+ וזה מתקמפל עם שאלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בה ראינו כי המודלים של ישראל וירדן דומים.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
