@@ -1,0 +1,1057 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+
+% Convert the Lyx colors into more pleasent colors:
+\usepackage{xcolor}
+\definecolor{blue}{RGB}{14,107,217}
+\definecolor{green}{RGB}{0,158,40}
+\definecolor{red}{RGB}{235,16,16}
+\definecolor{brown}{RGB}{164,66,0}
+\definecolor{orange}{RGB}{231,135,26}
+\definecolor{purple}{RGB}{94,53,177}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing double
+\align center
+
+\series bold
+\size huge
+)
+\numeric on
+67329
+\numeric off
+( 
+\begin_inset Formula $IML$
+\end_inset
+
+ | תרגיל
+\family roman
+\shape up
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם: רונאל חרדים | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+208917641
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+\begin_inset Formula $Theoretical$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נוכיח כי בעיית האופטימיזציה הבאה שקולה:
+\series default
+
+\begin_inset Formula 
+\[
+\underset{(\mathbf{w},b)}{argmin}\|\mathbf{w}\|^{2}\quad\text{ s.t. }\quad\forall iy_{i}\left(\left\langle \mathbf{w},\mathbf{x}_{i}\right\rangle +b\right)\geq1=\underset{\mathbf{v}\in\mathbb{R}^{n}}{argmin}\frac{1}{2}\mathbf{v}^{\top}Q\mathbf{v}+\mathbf{a}^{\top}\mathbf{v}\quad\text{ s.t. }\quad A\mathbf{v}\leq\mathbf{d}
+\]
+
+\end_inset
+
+
+\series bold
+הוכחה:
+\series default
+
+\begin_inset Formula 
+\[
+\underset{(\mathbf{w},b)}{argmin}\|\mathbf{w}\|^{2}=\underset{(\mathbf{w},b)}{argmin}\left(\left[w,b\right]^{T}I\left[w,b\right]\right)s.t\left[\begin{array}{ccccc}
+(y_{1},x_{1}) & . &  &  & y_{1}\\
+. &  & .\\
+. &  & .\\
+. &  &  & .\\
+(y_{m},x_{m}) &  &  &  & y_{m}
+\end{array}\right]\cdot\left[\begin{array}{c}
+w\\
+b
+\end{array}\right]\geq\left[\begin{array}{c}
+1\\
+1\\
+1\\
+1\\
+1
+\end{array}\right]=
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\underset{(\mathbf{w},b)}{argmin}\ 0.5\cdot\left[w,b\right]^{T}2I\left[w,b\right]+O^{T}\left[w,b\right]\ s.t\ \overset{A}{\left[\begin{array}{ccccc}
+(y_{1},x_{1}) & . &  &  & y_{1}\\
+. &  & .\\
+. &  & .\\
+. &  &  & .\\
+(y_{m},x_{m}) &  &  &  & y_{m}
+\end{array}\right]}\cdot\left[\begin{array}{c}
+w\\
+b
+\end{array}\right]\leq\overset{b}{\left[\begin{array}{c}
+-1\\
+-1\\
+-1\\
+-1\\
+-1
+\end{array}\right]}
+\]
+
+\end_inset
+
+ נשים לב כי עבור 
+\begin_inset Formula $\left[w,b\right]=V,2I=Q,O^{T}=a$
+\end_inset
+
+ נקבל את הדרוש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נוכיח את השקילות הנדרשת: 
+\series default
+
+\begin_inset Formula 
+\[
+\underset{\mathbf{w},\left\{ \xi_{i}\right\} }{argmin}\frac{\lambda}{2}\|\mathbf{w}\|^{2}+\frac{1}{m}\sum_{i}\xi_{i}\quad\text{ s.t. }\quad\forall iy_{i}\left\langle \mathbf{w},\mathbf{x}_{i}\right\rangle \geq1-\xi_{i}\wedge\xi_{i}\geq0=\underset{\mathbf{w},\left\{ \xi_{i}\right\} }{argmin}\frac{\lambda}{2}\|\mathbf{w}\|^{2}+\frac{1}{m}\sum_{i}\ell^{\text{hinge }}\left(y_{i}\left\langle \mathbf{w},\mathbf{x}_{i}\right\rangle \right)
+\]
+
+\end_inset
+
+נשים לב כי אנו מנסים למצוא את הערך המינימלי שמתקבל לכל 
+\begin_inset Formula $\xi_{i}$
+\end_inset
+
+ ולכל 
+\begin_inset Formula $w$
+\end_inset
+
+ אופטימלי תחת התנאים הנ
+\begin_inset Quotes erd
+\end_inset
+
+ל.
+ ומתקיים:
+\begin_inset Formula 
+\[
+y_{i}\left\langle \mathbf{w},\mathbf{x}_{i}\right\rangle \geq1\Rightarrow\xi_{i}=0
+\]
+
+\end_inset
+
+ אחרת 
+\begin_inset Formula 
+\[
+\xi_{i}=1-y_{i}\left\langle \mathbf{w},\mathbf{x}_{i}\right\rangle 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+במטרה למנם את 
+\begin_inset Formula $\xi_{i}$
+\end_inset
+
+ מאחר ולכל 
+\begin_inset Formula $\xi_{i}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $\xi_{i}=l_{hinge}(y_{i}\left\langle \mathbf{w},\mathbf{x}_{i}\right\rangle )$
+\end_inset
+
+ ולכן מתקיים עבור 
+\begin_inset Formula $m$
+\end_inset
+
+ ערכים:
+\begin_inset Formula 
+\[
+\underset{\mathbf{w},\left\{ \xi_{i}\right\} }{argmin}\frac{\lambda}{2}\|\mathbf{w}\|^{2}+\frac{1}{m}\sum_{i}\ell^{\text{hinge }}\left(y_{i}\left\langle \mathbf{w},\mathbf{x}_{i}\right\rangle \right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+)א(
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נחשב עבור ווקטור עם פיצ'ר בודד:
+\begin_inset Formula 
+\[
+\hat{y}^{MAP}:=\underset{k\in[K]}{argmax}f_{Y\mid X=\mathbf{x}}(k)=\underset{k\in[K]}{argmax}\frac{f_{X\mid Y=k}(\mathbf{x})f_{Y}(k)}{f_{X}(\mathbf{x})}=
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\underset{k\in[K]}{argmax}\frac{P\left(X=x\mid Y=k\right)\cdot P\left(Y=k\right)}{P\left(X=x\right)}=\underset{k\in[K]}{argmax}P\left(X=x\mid Y=k\right)\cdot P\left(Y=k\right)=
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\underset{k\in[K]}{argmax}\left(\frac{1}{\sigma_{k}\sqrt{2\pi}}\exp\left(-\frac{(x_{i}-\mu_{k})^{2}}{2\sigma_{k}^{2}}\right)\right)\cdot\pi_{k}
+\]
+
+\end_inset
+
+ 
+\series default
+עבור סט אימון 
+\begin_inset Formula $S=\{x_{i},y_{i}\}_{i=0}^{m}$
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+L(\theta\mid x,y)=f_{x,y\mid\theta}\left(\left\{ x_{i},y_{i}\right\} _{i=1}^{m}\right)\overset{iid}{=} \prod_{i=1}^{m}f_{x,y\mid\theta}\left(x_{i},y_{i}\right)=\prod_{i=1}^{m}f_{x\mid y=y_{i}}\left(x_{i}\right)\cdot f_{y}\left(y_{i}\right)=
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+=\prod_{i=1}^{m}N\left(\mu_{k},\sigma_{k}^{2}\right)\cdot\pi_{y_{i}}
+\]
+
+\end_inset
+
+ ניתן לחשב 
+\begin_inset Formula $logliklehood$
+\end_inset
+
+ באופן שקול:
+\begin_inset Formula 
+\[
+\begin{aligned}\ell(\theta\mid x,y) & =\log\left(\prod_{i=1}^{m}N\left(\mu_{k},\sigma_{k}\right)\cdot\pi_{y_{i}}\right)=\sum_{i=1}^{m}\log\left(N\left(\mu_{k},\sigma_{k}^{2}\right)\cdot\pi_{k}\right)\\
+ & =\sum_{i=1}^{m}\log\left(\pi_{k}\right)-\frac{1}{2}\log(2\pi)-\frac{1}{2}\log\left(\sigma_{k}^{2}\right)-\frac{\left(x_{i}-\mu_{y_{i}}\right)^{2}}{2\sigma_{k}^{2}}=
+\end{aligned}
+\]
+
+\end_inset
+
+ נגדיר משתנה אינדיקטור
+\begin_inset Formula 
+\[
+=l(\theta\mid x,y)=\sum_{k}n_{k}\cdot\log\left(\pi_{k}\right)-\frac{1}{2}n_{k}\log\left(\sigma_{k}^{2}\right)-\frac{1}{2\sigma_{k}^{2}}\cdot\sum_{i\mid y_{i}=k}\left(x_{i}-\mu_{k}\right)^{2}
+\]
+
+\end_inset
+
+ נגזור: 
+\begin_inset Formula 
+\[
+\frac{\partial l\left(\theta\mid x_{1}y\right)}{\partial\mu_{k}}=2\left(\sum_{k}n_{k}\cdot\log\left(\pi_{k}\right)-\frac{1}{2}n_{k}\log\left(\sigma_{k}^{2}\right)-\frac{1}{2\sigma_{k}^{2}}\cdot\sum_{i\mid y_{i}=k}\left(x_{i}-\mu_{k}\right)^{2}\right)2\partial\mu_{k}
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+=2\sum_{i\mid y_{i}=k}\left(x_{i}-\mu_{k}\right)^{2}/2\mu_{k}=\sum_{i\mid y_{i}=k}2\left(x_{i}-\mu_{k}\right)\cdot(-1)=0
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\Rightarrow-n_{k}\cdot\mu_{k}+\sum_{i:y_{i}=k}x_{i}=0
+\]
+
+\end_inset
+
+
+\series bold
+ וקיבלנו כי: 
+\series default
+
+\begin_inset Formula 
+\[
+\hat{\mu}_{k}^{\mu LE}=\frac{1}{n_{k}}\sum_{i\mid y_{i}=k}x_{i}
+\]
+
+\end_inset
+
+
+\series bold
+ נמשיך: 
+\series default
+
+\begin_inset Formula 
+\[
+\frac{\partial l\left(\theta\mid X_{1}y\right)}{\partial\sigma_{k}^{2}}=\partial\left(\sum_{k}n_{k}\cdot\log\left(\pi_{k}\right)-\frac{1}{2}n_{k}\log\left(\sigma_{k}^{2}\right)-\frac{1}{2\sigma_{k}^{2}}\cdot\left[\sum_{i\mid y_{i}=k}\left(x_{i}-\mu_{k}\right)^{2}\right)/\partial\sigma_{k}^{2}\right.
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+=-n_{k}\cdot\frac{1}{\sigma_{k}}+\frac{1}{\sigma_{n}^{3}}\sum_{i\mid y_{1}=k}\left(x_{i}-\mu_{k}\right)^{2}=0
+\]
+
+\end_inset
+
+ 
+\series bold
+קיבלנו כי: 
+\begin_inset Formula 
+\[
+\Sigma_{k}^{2}=\frac{1}{n_{k}}\sum_{i\mid y_{1}=k}\left(x_{i}-\mu_{k}\right)^{2}
+\]
+
+\end_inset
+
+ וגם 
+\begin_inset Formula $\pi_{k}=\frac{n_{k}}{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+)ב(
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נחשב עבור ווקטור עם 
+\begin_inset Formula $d$
+\end_inset
+
+ פיצ'רים: 
+\end_layout
+
+\begin_layout Standard
+פונקציית 
+\begin_inset Formula $liklehood$
+\end_inset
+
+ תיראה כך: 
+\begin_inset Formula 
+\[
+l(\theta\mid x,y)=\sum_{k}n_{k}\cdot\log\left(\pi_{k}\right)+n_{k}\cdot\log\left(\frac{1}{\left|\Sigma_{k}\right|}\right)-\frac{1}{2}\cdot\sum_{i\mid y_{i}=k}\left(x_{i}-\mu_{k}\right)\sum_{k}^{-1}\left(x_{i}-\mu_{k}\right)^{\top}
+\]
+
+\end_inset
+
+ 
+\series bold
+נגזור:
+\series default
+ 
+\begin_inset Formula 
+\[
+\frac{\partial l(\theta\mid x,y)}{\partial\mu_{k}}=\sum_{il_{y:}=h}\left(x_{i}-\mu_{k}\right)\cdot\sum_{k}^{-1}=0
+\]
+
+\end_inset
+
+
+\series bold
+ ונקבל כי: 
+\begin_inset Formula 
+\[
+\hat{\mu}_{k}^{\mu LE}=\frac{1}{n_{k}}\sum_{i\mid y_{i}=k}x_{i}
+\]
+
+\end_inset
+
+ נשים לב כי: 
+\begin_inset Formula 
+\[
+\frac{2-n_{k}\log\left(\left|\Sigma_{k}\right|\right)}{2\Sigma_{n}^{-1}}=-\frac{1}{2}n_{k}\Sigma_{k}
+\]
+
+\end_inset
+
+ לכן: 
+\begin_inset Formula 
+\[
+\frac{\partial l\left(\theta\mid x_{1}y\right)}{\partial\sum_{k}^{-1}}=-\frac{1}{2}n_{k}\Sigma_{k}-\frac{1}{2}\sum_{iI_{y_{i}=h}}\left(x_{i}-\mu_{k}\right)\left(x_{i}-\mu_{k}\right)^{\top}
+\]
+
+\end_inset
+
+ ונקבל כי: 
+\begin_inset Formula 
+\[
+\Sigma_{k}^{MLE}=\frac{1}{n_{k}}\sum_{i\mid y_{1}=k}\left(x_{i}-\mu_{k}\right)\left(x_{i}-\mu_{k}\right)^{T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+)א(
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נחשב עבור ווקטור עם פיצ'ר בודד:
+\series default
+
+\begin_inset Formula 
+\[
+\hat{y}_{i}^{MAP}:=\underset{k\in[K]}{argmax}f_{Y\mid X=\mathbf{x}}(k)=\underset{k\in[K]}{argmax}\frac{f_{X\mid Y=k}(\mathbf{x})f_{Y}(k)}{f_{X}(\mathbf{x})}=
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\underset{k\in[K]}{argmax}\frac{P\left(X=x\mid Y=k\right)\cdot P\left(Y=k\right)}{P\left(X=x\right)}=\underset{k\in[K]}{argmax}\prod_{i=0}^{d}\frac{\left(\frac{e^{-\lambda_{kj}}\lambda_{kj}^{x_{i}}}{x_{i}!}\right)\cdot\pi_{k}}{P\left(X=x\right)}=
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\underset{k\in[K]}{argmax}\prod_{i=0}^{d}\left(\frac{e^{-\lambda_{kj}}\lambda_{kj}^{x_{i}}}{x_{i}!}\right)\cdot\pi_{k}
+\]
+
+\end_inset
+
+
+\series bold
+ נוציא 
+\begin_inset Formula $log$
+\end_inset
+
+ ונקבל: 
+\series default
+
+\begin_inset Formula 
+\[
+=\sum_{i=1}^{m}-\lambda y_{i}+x_{i}\cdot\log\left(\lambda_{i}\right)-\log\left(x_{i}!\right)-\log\left(\pi_{k}\right)
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+=\sum_{k}-\lambda_{k}\cdot n_{k}+\left[\sum_{i\mid y_{i}=k}x_{i}\cdot\log\left(\partial_{k}\right)-\log\left(x_{i}\mid\right)\right]+n_{k}\cdot\log\left(\pi_{k}\right)
+\]
+
+\end_inset
+
+ 
+\series bold
+נגזור לפי 
+\begin_inset Formula $\lambda_{k}$
+\end_inset
+
+ ונקבל:
+\series default
+ 
+\begin_inset Formula 
+\[
+\frac{\partial l(\theta\mid x,y)}{\partial\lambda_{k}}=-n_{k}+\sum_{i\mid y,-k}x_{i}\left(\frac{1}{\lambda_{k}}\right)=0\Rightarrow\lambda_{k}^{MLE}=\frac{1}{n_{k}}\sum_{i\mid y_{i}=k}x_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+)ב(
+\end_layout
+
+\begin_layout Standard
+באופן דומה לסעיף קודם ומכך שהתפלגות הדגימות פואסונית כך ש 
+\begin_inset Formula $\lambda_{k}=\sum_{j=1}^{n}\lambda_{kj}$
+\end_inset
+
+ נובע כי 
+\begin_inset Formula $\lambda_{k}^{MLE}=\frac{1}{n_{k}}\sum_{i\mid y_{i}=k}x_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+\begin_inset Formula $Practical$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $Perceptron\ Classifier$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Subsection
+שאלה
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+: 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הגרף של ה 
+\begin_inset Formula $Loss$
+\end_inset
+
+ הוא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Perceptron 2 - seprable.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+שאלה
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+: 
+\end_layout
+
+\begin_layout Standard
+ההבדלים בין הגרף הזה לגרף הקודם הוא שהדאטה לא מופרד למחלקות בצורה ברורה
+ ולכן לא ניתן לקבוע 
+\begin_inset Formula $w$
+\end_inset
+
+ שיפריד בצורה טובה את הדאטה לשתי מחלקות ולכן ה 
+\begin_inset Formula $loss$
+\end_inset
+
+ לא יורד בכל איטרציה )הנחת הריליזביליות לא מתקיימת(.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Perceptron 2 - inseprable.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $GNB\binampersand LDA$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Subsection
+שאלה
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+: 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הגרפים שקיבלנו הם:
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename pract 1.png
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ניתן לראות כי 
+\begin_inset Formula $LDA$
+\end_inset
+
+ מסווג את הדאטה טוב יותר, אך בגדול התתפלגויות נראות שוות.
+\end_layout
+
+\begin_layout Subsection
+שאלה
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הגרפים שקיבנו הם:
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename pract 2.png
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ההבדל בין שתי התרחישים הוא פיזור הדאטה.
+ בתרחיש הראשון הדאטה היה יחסית מופרד, בעוד במקרה זה הדאטה צמוד יותר.
+\end_layout
+
+\begin_layout Standard
+ניתן לראות כי כל מסווג הניח ההתפלגות שונה של הדאטה.
+\end_layout
+
+\begin_layout Standard
+המסווג הטוב יותר הוא 
+\begin_inset Formula $LDA$
+\end_inset
+
+ ניתן לראות זאת לפי ערך הפונקציה 
+\begin_inset Formula $accuracy$
+\end_inset
+
+ שגדול יותר מערך הפונקציה של 
+\begin_inset Formula $GNB$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document
