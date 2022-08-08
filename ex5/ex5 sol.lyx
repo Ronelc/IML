@@ -1,0 +1,1455 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+
+% Convert the Lyx colors into more pleasent colors:
+\usepackage{xcolor}
+\definecolor{blue}{RGB}{14,107,217}
+\definecolor{green}{RGB}{0,158,40}
+\definecolor{red}{RGB}{235,16,16}
+\definecolor{brown}{RGB}{164,66,0}
+\definecolor{orange}{RGB}{231,135,26}
+\definecolor{purple}{RGB}{94,53,177}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing double
+\align center
+
+\series bold
+\size huge
+)
+\numeric on
+67329
+\numeric off
+( 
+\begin_inset Formula $IML$
+\end_inset
+
+ | תרגיל
+\family roman
+\shape up
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם: רונאל חרדים | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+208917641
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+\begin_inset Formula $Theoretical$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+)א( 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נראה כי 
+\begin_inset Formula $\hat{\mathbf{w}}_{\lambda}=A_{\lambda}\hat{\mathbf{w}}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+מתקיים השויון הבא 
+\begin_inset Formula $A_{\lambda}\hat{w}=A_{\lambda}\hat{w}(\lambda=0)$
+\end_inset
+
+ ואנו יודעים כי מהפתרון ללא רגולציה מתקיים
+\begin_inset Formula 
+\[
+\hat{w}(\lambda=0)\iff argmin_{w}\left(||y-Ww||_{2}^{2}\right)=\left(X^{T}X\right)^{-1}X^{T}y
+\]
+
+\end_inset
+
+ ולכן: 
+\begin_inset Formula 
+\[
+A_{\lambda}\hat{w}=\left(X^{T}X+\lambda I_{d}\right)^{-1}\left(X^{T}X\right)\cdot\left(X^{T}X\right)^{-1}X^{T}y=\left(X^{T}X+\lambda I_{d}\right)^{-1}X^{T}y
+\]
+
+\end_inset
+
+ ראינו בכיתה כי זה שווה ל
+\begin_inset Formula $\hat{w}(\lambda)$
+\end_inset
+
+ כנדרש.
+ 
+\end_layout
+
+\begin_layout Subsection*
+)ב(
+\end_layout
+
+\begin_layout Standard
+נראה כי 
+\begin_inset Formula $\lambda>0\Rightarrow\mathbb{E}[\hat{w}(\lambda)]\neq w$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+E[\hat{w}(\lambda)]\stackrel{(3.A)}{=}E\left[A_{\lambda}\hat{w}\right]=E\left[\left(X^{T}X+\lambda I_{d}\right)^{-1}\left(X^{T}X\right)\cdot\hat{w}\right]
+\]
+
+\end_inset
+
+ מכיוון שהמטריצה 
+\begin_inset Formula $X$
+\end_inset
+
+ קבועה אנו יודעים כי 
+\begin_inset Formula $E\left[A_{\lambda}\right]=A_{\lambda}$
+\end_inset
+
+.
+ ולכן
+\begin_inset Formula 
+\[
+=\left(X^{T}X+\lambda I_{d}\right)^{-1}\left(X^{T}X\right)E[\widehat{w}]\stackrel{E[\widehat{w}]=w}{=}\left(X^{T}X+\lambda I_{d}\right)^{-1}\left(X^{T}X\right)\cdot w
+\]
+
+\end_inset
+
+ כעת, אם 
+\begin_inset Formula $\lambda=0$
+\end_inset
+
+ אזי 
+\begin_inset Formula $A_{\lambda}=I$
+\end_inset
+
+, אך מכיוון ש 
+\begin_inset Formula $\lambda>0$
+\end_inset
+
+ מתקיים:
+\begin_inset Formula 
+\[
+\left(X^{T}X+\lambda I_{d}\right)^{-1}\left(X^{T}X\right)\neq I_{d}\text{, therefore }\left(X^{T}X+\lambda I_{d}\right)^{-1}\left(X^{T}X\right)w\neq w
+\]
+
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Subsection*
+)ג(
+\end_layout
+
+\begin_layout Standard
+נראה כי 
+\begin_inset Formula $\operatorname{Var}(\hat{w}(\lambda))=\sigma^{2}A_{\lambda}\left(X^{T}X\right)^{-1}A_{\lambda}^{T}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+מהרמז אנו יודעים כי 
+\begin_inset Formula 
+\[
+\operatorname{Var}\left(A_{\lambda}\hat{w}\right)=A_{\lambda}\operatorname{Var}(\hat{w})A_{\lambda}^{T}=A_{\lambda}\sigma^{2}\left(X^{T}X\right)^{-1}A_{\lambda}^{T}
+\]
+
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Subsection*
+)ד(
+\end_layout
+
+\begin_layout Subsection*
+)ה(
+\end_layout
+
+\begin_layout Standard
+באופן דומה למה שראינו בכיתה, נניח כי 
+\begin_inset Formula $y^{\ast}$
+\end_inset
+
+ ההיפוזה האמיתית, 
+\begin_inset Formula $\bar{y}$
+\end_inset
+
+הנצפה, ו 
+\begin_inset Formula $\hat{y}$
+\end_inset
+
+האומדן.
+ תחת ההגדרות הללו מתקיים: 
+\begin_inset Formula 
+\[
+\ensuremath{E\left[||\hat{y}-y^{*}\|^{2}\right]=\operatorname{Var}[\hat{y}]+\operatorname{bias}^{2}[\hat{y}]}.
+\]
+
+\end_inset
+
+ מכיוון ש 
+\begin_inset Formula 
+\[
+\ensuremath{\operatorname{Var}[\hat{y}]=E\left[\|\hat{y}-\bar{y}\|^{2}\right]}\ \land\ bias\ensuremath{[\hat{y}]=}\ensuremath{\left\Vert \bar{y}-y^{*}\right\Vert ^{2}}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומתקיים כי 
+\begin_inset Formula $y^{\ast}=\hat{w}X$
+\end_inset
+
+ ללא תנאי רגולריזציה.
+ לכן 
+\begin_inset Formula $y^{\ast}=E\left[\hat{w}\right]$
+\end_inset
+
+, בנוסף האסטימטור שלנו הוא 
+\begin_inset Formula $\hat{y}=\hat{w}(\lambda)$
+\end_inset
+
+ ולכן גם 
+\begin_inset Formula $\bar{y=E\left[\hat{w}(\lambda)\right]}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נחשב: 
+\begin_inset Formula 
+\[
+\begin{gathered}\operatorname{Var}(\lambda)=\operatorname{Tr}\left(\operatorname{Var}(\hat{w}(\lambda))=\sigma^{2}\operatorname{Tr}\left(A_{\lambda}\left(X^{T}X\right)^{-1}A_{\lambda}^{T}\right)\right.\\
+\text{}
+\end{gathered}
+\]
+
+\end_inset
+
+נגדיר 
+\begin_inset Formula $\left(X^{T}X+\lambda I_{d}\right)=X^{\prime}$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $A_{\lambda}=X^{\prime-1}\left(X^{T}X\right)$
+\end_inset
+
+, וגם 
+\begin_inset Formula 
+\[
+\operatorname{Var}(\lambda)=\sigma^{2}\operatorname{Tr}\left(X^{\prime-1}\left(X^{T}X\right)\left(X^{T}X\right)^{-1}\left(X^{\prime-1}\left(X^{T}X\right)\right)^{T}\right)=\sigma^{2}\operatorname{Tr}\left(X^{\prime-1}\left(X^{T}X\right)X^{\prime-1}\right)
+\]
+
+\end_inset
+
+ כעת, נגדור את השונות לפי 
+\begin_inset Formula $X'$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\left.\frac{d\operatorname{Var}(\lambda)}{dX^{\prime}}\right|_{\lambda=0}=\sigma^{2}\operatorname{Tr}\left(\frac{d}{dX^{\prime}}\left(X^{\prime-1}\left(X^{T}X\right)X^{\prime-1}\right)\right)_{\lambda=0}=-2\sigma^{2}\left(X^{T}X\right)^{-1}\left(X^{T}X\right)^{-1}
+\]
+
+\end_inset
+
+ ולפי 
+\begin_inset Formula $\lambda$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\left.\frac{d\operatorname{Var}(\lambda)}{d\lambda}\right|_{\lambda=0}=\operatorname{Tr}\left(\frac{d\operatorname{Var}(\lambda)}{dX^{\prime}}\frac{dX^{\prime}}{d\lambda}\right)=-2\sigma^{2}\operatorname{Tr}\left(\left(X^{T}X\right)^{-1}\left(X^{T}X\right)^{-1}\right)
+\]
+
+\end_inset
+
+ הערך הוא אי שלילי.
+ 
+\end_layout
+
+\begin_layout Standard
+עבור ה 
+\begin_inset Formula $bias$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\begin{gathered}\operatorname{bias}(\lambda)=\left\Vert \bar{y}-y^{*}\right\Vert =\|E[\hat{w}(\lambda)]-E[\hat{w}]\|=\left\Vert E\left[A_{\lambda}w\right]-E[\hat{w}]\right\Vert =\left\Vert A_{\lambda}E[w]-w\right\Vert \\
+=\left\Vert A_{\lambda}w-w\right\Vert =\left\Vert \left(A_{\lambda}-I\right)w\right\Vert \\
+\operatorname{bias}^{2}(\lambda)=\left.\left\Vert \left(A_{\lambda}-I\right)w\right\Vert \right|^{2}=w^{T}\left(A_{\lambda}-I\right)^{T}\left(A_{\lambda}-I\right)w\\
+\text{ in terms of }X^{\prime}\\
+\\
+\end{gathered}
+\]
+
+\end_inset
+
+עבור 
+\begin_inset Formula $X'$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+{bias}^{2}(\lambda)=w^{T}\left(X^{\prime-1}\left(X^{T}X\right)-I\right)^{T}\left(X^{\prime-1}\left(X^{T}X\right)-I\right)w
+\]
+
+\end_inset
+
+ נגזור :
+\begin_inset Formula 
+\[
+\begin{gathered}\left.\quad\frac{d\text{ bias }^{2}}{d\lambda}\right|_{\lambda=0}=\left.\frac{d}{d\lambda}\left(\sum_{i}\left(\sum_{j}X_{ij}^{\prime}w_{j}\right)^{2}\right)\right|_{\lambda=0}\\
+=2\sum_{i}\left(\sum_{j}X_{ij}^{\prime}w_{j}\right)_{\lambda=0}\cdot\frac{d}{d\lambda}\left(\sum_{j}X_{ij}w_{j}\right)_{\lambda=0}=0
+\end{gathered}
+\]
+
+\end_inset
+
+ השגיאה נתונה ע
+\begin_inset Quotes erd
+\end_inset
+
+י:
+\begin_inset Formula 
+\[
+MSE=\text{ bias }^{2}+\text{ var }=w^{T}\left(A_{\lambda}-I\right)^{T}\left(A_{\lambda}-I\right)w+\sigma^{2}\operatorname{Tr}\left(A_{\lambda}\left(X^{T}X\right)^{-1}A_{\lambda}^{T}\right.
+\]
+
+\end_inset
+
+ הנגזרת היא סכום הנגזרות וקטנה מ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+ מסכיוון שהנגזרת של ה 
+\begin_inset Formula $bias^{2}=0$
+\end_inset
+
+ והנגזרת של השונות שלילית.
+\end_layout
+
+\begin_layout Subsection*
+)ו(
+\end_layout
+
+\begin_layout Standard
+אנו יודעים כי מודש לינארי בלי רגולריזציה מתקיים כאשר נשווה 
+\begin_inset Formula $\lambda=0$
+\end_inset
+
+.
+ כעת ממה שראינו בסעיף קודם שעבור עברכים מסויימים מתקיים 
+\begin_inset Formula $\lambda>0\Rightarrow MSE(\lambda)<0$
+\end_inset
+
+ ניתן להסיק כי 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ כזה מספק 
+\begin_inset Formula $MSE(\lambda)<MSE(0)$
+\end_inset
+
+ כלומר הרגולריזציה מקטינה את הטעות.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+בהינתן קרנל 
+\begin_inset Formula $k(x,x')$
+\end_inset
+
+ נגדיר את הקרנל המנורמל להיות עבור כל 
+\begin_inset Formula $x$
+\end_inset
+
+ - 
+\begin_inset Formula $\widetilde{k}(x,x)=1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נגדיר:
+\begin_inset Formula 
+\[
+\tilde{k}\left(x,x^{\prime}\right)=\frac{k\left(x,x^{\prime}\right)}{\sqrt{k(x,x)\cdot k\left(x^{\prime},x^{\prime}\right)}}
+\]
+
+\end_inset
+
+ ראישת נשים לב כי הקרנד המנורמל וולידי, והוא מייצג מ
+\begin_inset Quotes erd
+\end_inset
+
+פ 
+\begin_inset Formula $\psi/||\psi\|$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\begin{gathered}\tilde{k}\left(x,x^{\prime}\right)=\frac{\left\langle \psi(x),\psi\left(x^{\prime}\right)\right\rangle }{\sqrt{\langle\psi(x),\psi(x)\rangle\left\langle \psi\left(x^{\prime}\right),\psi\left(x^{\prime}\right)\right\rangle }}=\frac{\left\langle \psi(x),\psi\left(x^{\prime}\right)\right\rangle }{\sqrt{||\psi(x)\|\left.^{2}||\psi\left(x^{\prime}\right)\right|^{2}}}=\frac{\left\langle \psi(x),\psi\left(x^{\prime}\right)\right\rangle }{||\psi(x)\left\Vert \cdot||\psi\left(x^{\prime}\right)\right\Vert }\\
+=\left|\frac{\psi(x)}{||\psi(x)\|},\frac{\psi\left(x^{\prime}\right)}{||\psi\left(x^{\prime}\right)\|}\right|
+\end{gathered}
+\]
+
+\end_inset
+
+ ומתקיים 
+\begin_inset Formula 
+\[
+\tilde{k}(x,x)=\frac{\langle\psi(x),\psi(x)\rangle}{\|\psi(x)\|\cdot\|\psi(x)\|}=\frac{\|\psi(x)\|^{2}}{\|\psi(x)\|^{2}}=1
+\]
+
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+נביא דוגמה כנדרש:
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $d=2,S=S_{1}\cup S_{2}$
+\end_inset
+
+ עבור 
+\begin_inset Formula $S_{i}=\left\{ (x,y):r_{i}\leq\sqrt{x^{2}+y^{2}}\leq r_{i+1}\right\} $
+\end_inset
+
+ המייצג סט של נקודות בתוך טבעת עם רדיוס פנימי 
+\begin_inset Formula $r_{i}$
+\end_inset
+
+, ועם רדיוס חיצוני 
+\begin_inset Formula $r_{i+1}$
+\end_inset
+
+כך ש 
+\begin_inset Formula $r_{1}<r_{2}<r_{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נגדיר את פונקציית המיפןי באופן הבא: עבור נקודות 
+\begin_inset Formula $x,y$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+(x,y)\in S,\psi(x,y)=\left(x,y,\sqrt{x^{2}+y^{2}}\right)
+\]
+
+\end_inset
+
+ הפונקציה 
+\begin_inset Formula $\psi$
+\end_inset
+
+ ממפה את הנקודות לעצמן, עם אבלואציה 
+\begin_inset Formula $z=\sqrt{x^{2}+y^{2}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מכיוון ש 
+\begin_inset Formula $r_{1}<r_{2}<r_{3}$
+\end_inset
+
+ הדאטה יהיה מופרד לינארית ב 
+\begin_inset Formula $R^{3}$
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Part
+\begin_inset Formula $Practical$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+גרף הדגימות עם רעש 
+\numeric on
+5
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $train=red$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $test=blue$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q1.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הגרף עבור 
+\begin_inset Formula $poly\ fit$
+\end_inset
+
+ עם 
+\begin_inset Formula $k=0...10$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q2.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+הסבר: 
+\series default
+אנו רואים כי בטעות על סט האימון יורדת ככל ש 
+\begin_inset Formula $k$
+\end_inset
+
+ עולה, כי האלגוריתם התאמן עליו כבר ומתאים את עצמו לסט טוב יותר ככל שדרגת
+ הפולינום עולה.
+ בעוד שעבור סט המבחן הוא חוזה טוב יותר עבור 
+\begin_inset Formula $k=4$
+\end_inset
+
+.
+ כי ה 
+\begin_inset Formula $var$
+\end_inset
+
+ גבוה על סט האימון ככל ש 
+\begin_inset Formula $k$
+\end_inset
+
+ עולה.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+הערך 
+\begin_inset Formula $k$
+\end_inset
+
+ הטוב ביותר היה 
+\begin_inset Formula $k=4$
+\end_inset
+
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+הטעות שהתקבלה על סט הבחינה הייתה 
+\begin_inset Formula $test\ error=27.16$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $validation\ error=25.19$
+\end_inset
+
+, לכן לא התרקיים שוויון בניהם, אך הם קרובים יחסית.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $train=red$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $test=blue$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q4.0.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q4.1.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הסבר: 
+\series default
+עבור 
+\begin_inset Formula $k=4$
+\end_inset
+
+ מתקיים מפגש בין הטעויות של הטסט סט ו 
+\begin_inset Formula $validation$
+\end_inset
+
+ משום שאין רעז אזי הטעות קרובה והאגוריתם חוזה טוב בשני המקרים.
+ עבור 
+\begin_inset Formula $train\ set$
+\end_inset
+
+ הטעות שווה ל 
+\begin_inset Formula $2.15$
+\end_inset
+
+ - שונה אך לא בהרבה.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $train=red$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $test=blue$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q5.0.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q5.1.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הסבר: 
+\series default
+נשים לב כי ככל שמספר הדגימות עולה טווח הטעות בין סט האימון ל 
+\begin_inset Formula $validation$
+\end_inset
+
+ מצטצצם והם מתנהגים כאילו אין רעש כלל.
+ ככל שיש לאלגוריתם יותר דגימות הוא מאומן טוב יותר ולכן האומדן שלו קרוב יותר
+ למציאות.
+ זה נתמך גם ע
+\begin_inset Quotes erd
+\end_inset
+
+י חוק המספרים הגדולים - התכנסות לתוחלת.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+7
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הטווח הטוב ביותר עבור האלגוריתמים הוא: 
+\begin_inset Formula $0-6$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $Ridge\ plot$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename q7.0.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $Lasso\ plot$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename q7.1.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נסביר את ההבדלים בין הגרפים ובין הסטים:
+\end_layout
+
+\begin_layout Standard
+אנו רואים כי יש הבדלים בין האלגוריתים, משום שהם ממשקלים את טעויות האלגוריתם
+ עם נורמה שונה.
+ אך שניהם מקבלים ערך נמוך כאשר למדה קטנה.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+8
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+ההפסד המינימלי מתקבל עבור פרמטרי רגולריזציה הבאים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Lasso$
+\end_inset
+
+:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Ridge$
+\end_inset
+
+:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+נחשב את הטעות לטסט סט:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Lasso$
+\end_inset
+
+: 
+\begin_inset Formula $4040.64$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Ridge$
+\end_inset
+
+: 
+\begin_inset Formula $3612.24$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Linear\ Regression$
+\end_inset
+
+: 
+\begin_inset Formula $3612.24$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
