@@ -1,0 +1,2038 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+
+% Convert the Lyx colors into more pleasent colors:
+\usepackage{xcolor}
+\definecolor{blue}{RGB}{14,107,217}
+\definecolor{green}{RGB}{0,158,40}
+\definecolor{red}{RGB}{235,16,16}
+\definecolor{brown}{RGB}{164,66,0}
+\definecolor{orange}{RGB}{231,135,26}
+\definecolor{purple}{RGB}{94,53,177}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing double
+\align center
+
+\series bold
+\size huge
+)
+\numeric on
+67329
+\numeric off
+( 
+\begin_inset Formula $IML$
+\end_inset
+
+ | תרגיל
+\family roman
+\shape up
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם: רונאל חרדים | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+208917641
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+נוכיח את הדרוש ע
+\begin_inset Quotes erd
+\end_inset
+
+י שימוש בא
+\begin_inset Quotes erd
+\end_inset
+
+ש מרקוב:מאי השוויון נובע כי
+\begin_inset Formula 
+\[
+P_{S\sim D^{m}}L_{D}(A(S)\leq\varepsilon)=1-P_{S\sim D^{m}}L_{D}(A(S)\geq\varepsilon)\geq1-\frac{E_{S\sim D^{m}}\left(L_{D}(A(S))\right)}{\varepsilon}
+\]
+
+\end_inset
+
+ מכיוון ש 
+\begin_inset Formula 
+\[
+\lim_{m\rightarrow\infty}\frac{E_{S\sim D^{m}}\left(L_{D}(A(S))\right)}{\varepsilon}=0
+\]
+
+\end_inset
+
+ אזי 
+\begin_inset Formula 
+\[
+\text{ }\lim_{m\rightarrow\infty}P_{S\cdots D^{m}}L_{D}(A(S)\leq\varepsilon)\geq1
+\]
+
+\end_inset
+
+ ולכן קיימת 
+\begin_inset Formula $m$
+\end_inset
+
+ כך ש 
+\begin_inset Formula 
+\[
+P_{S\sim D^{m}}L_{D}(A(S)\leq\varepsilon)
+\]
+
+\end_inset
+
+ ששואפת ל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+, וזה שווה ל 
+\begin_inset Formula 
+\[
+P_{S\sim D^{m}}\left(L_{D}(A(S)\leq\varepsilon)\geq1-\delta,\right.
+\]
+
+\end_inset
+
+ כנדרש.
+ 
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נשתמש באלגוריתם הלומד הבא:
+\end_layout
+
+\begin_layout Standard
+בהינתן סט 
+\begin_inset Formula $X\in R^{2}$
+\end_inset
+
+ נחזיר מעגל כך שבמרכזו נמצאות כל הדגימות ששוות ל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+, ומה שמחוץ למעגל שוו ל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+ 
+\end_layout
+
+\begin_layout Standard
+אם לא קיים מעגל כזה תחזיר קבוצה ריקה.
+\end_layout
+
+\begin_layout Standard
+בנוסף בשביל 
+\begin_inset Formula $cov$
+\end_inset
+
+ נגדיר טבעת עם רדיוס פנימי 
+\begin_inset Formula $r_{1}$
+\end_inset
+
+ ורדיוס חיצוני 
+\begin_inset Formula $r_{2}$
+\end_inset
+
+ = 
+\begin_inset Formula $R(r_{1},r_{2})$
+\end_inset
+
+.
+ עבור מעגל 
+\begin_inset Formula $C$
+\end_inset
+
+ הרדיוס שלו יסומן ב 
+\begin_inset Formula $r_{C}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+מכיוון שהמעגל התואם הקרוב ביותר - 
+\begin_inset Formula $C'$
+\end_inset
+
+ תמיד מוכל במעגל 
+\begin_inset Formula $C$
+\end_inset
+
+ השגיאה יכולה להגיע רק משגיאות האמת ששייכות ל 
+\begin_inset Formula $R(r_{C'},r_{C})$
+\end_inset
+
+.
+ ואם אנו יודעים כי המשקל של 
+\begin_inset Formula $D$
+\end_inset
+
+ הוא קטן מ 
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+, אזי המשקל של הטבעת הוא בדיוק 
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+ הוא 
+\begin_inset Formula $R(r_{C'},r_{C''})$
+\end_inset
+
+ עבור מעגל 
+\begin_inset Formula $C''$
+\end_inset
+
+ כלשהו.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+כעת נשים לב כי:
+\end_layout
+
+\begin_layout Standard
+מתקיים כי משקל הטבעת 
+\begin_inset Formula $R(r_{C'},r_{C}).$
+\end_inset
+
+ הוא בדיוק 
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+ אמ
+\begin_inset Quotes erd
+\end_inset
+
+מ 
+\begin_inset Formula $C'\subseteq C$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+וגם 
+\begin_inset Formula $C\subseteq C'$
+\end_inset
+
+ אמ
+\begin_inset Quotes erd
+\end_inset
+
+מ אין נקודות מהסט 
+\begin_inset Formula $S$
+\end_inset
+
+ בתוך 
+\begin_inset Formula $R(r_{C'},r_{C}).$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אם נקודה 
+\begin_inset Formula $p$
+\end_inset
+
+ כלשהי נמצאת ב 
+\begin_inset Formula $R(r_{C'},r_{C}).$
+\end_inset
+
+ אזי האלגוריתן יכלול את 
+\begin_inset Formula $p$
+\end_inset
+
+ ב 
+\begin_inset Formula $C'$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+הההסתברות לפספס דגימה ב 
+\begin_inset Formula $R(r_{C'},r_{C}).$
+\end_inset
+
+ היא 
+\begin_inset Formula $1-\varepsilon$
+\end_inset
+
+ ועבור 
+\begin_inset Formula $m$
+\end_inset
+
+ דגימות 
+\begin_inset Formula $(1-\varepsilon)^{m}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ מכאן נובע כי אם נבחר 
+\begin_inset Formula $m$
+\end_inset
+
+ כזו כך ש 
+\begin_inset Formula $(1-\varepsilon)^{m}\leq\delta$
+\end_inset
+
+ אזי בהסתברות 
+\begin_inset Formula $1-\delta$
+\end_inset
+
+ עבןר 
+\begin_inset Formula $m$
+\end_inset
+
+ דגימות רנדומליות, גודל הטעות יהיה לכל היותר 
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כעת מכיוון ש 
+\begin_inset Formula $(1-\varepsilon)^{m}\leq e^{-m\varepsilon}$
+\end_inset
+
+ נבחר 
+\begin_inset Formula $\delta\geq e^{-m\varepsilon}$
+\end_inset
+
+ ויתקיים 
+\begin_inset Formula $m_{H}(\varepsilon,\delta)\leq\frac{\log(1/\delta)}{\varepsilon}$
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נראה כי מימד 
+\begin_inset Formula $VC$
+\end_inset
+
+ של המחלקה שווה ל 
+\begin_inset Formula $n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+קים תת סט 
+\begin_inset Formula $C\subseteq X$
+\end_inset
+
+ בגודל 
+\begin_inset Formula $n$
+\end_inset
+
+ שמחולק לשתי מחלקות.
+ נגדיר את 
+\begin_inset Formula $C$
+\end_inset
+
+ להיות 
+\begin_inset Formula $C=\{e_{1},...e_{n}\}$
+\end_inset
+
+.
+ בהינתן 
+\begin_inset Formula $n$
+\end_inset
+
+ תוויות 
+\begin_inset Formula $y\in\{0,1\}^{n}$
+\end_inset
+
+ , 
+\begin_inset Formula $h_{[n]}$
+\end_inset
+
+ יכולה ליצור את כולן מכיוון שכשאנו סוכמים את תתי הסטים ב 
+\begin_inset Formula $\sum_{i\in[n]}x_{i}$
+\end_inset
+
+ אנו מקבלים את כל הפרמוטציות של 
+\begin_inset Formula $\{0,1\}^{n}$
+\end_inset
+
+.
+ במילים אחרות מההגדרה של 
+\begin_inset Formula $h_{I}$
+\end_inset
+
+ושימוש בסינגלטון 
+\begin_inset Formula $I=\{i\}$
+\end_inset
+
+ עבור 
+\begin_inset Formula $i\in[n]$
+\end_inset
+
+ מתקבל 
+\begin_inset Formula $h_{I}=\left\{ \begin{array}{l}
+1,x_{i}=1\\
+0,x_{i}=0
+\end{array}\right\} $
+\end_inset
+
+ ומאיחוד סינגלטון נקבל כי 
+\begin_inset Formula $\bigcup_{i=1}^{k}\{i\}=[k]$
+\end_inset
+
+ .
+ התווית שתחזור לנו היא פרמוטציה של 
+\begin_inset Formula $k$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1-
+\numeric off
+ים ו 
+\begin_inset Formula $n-k$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אפסים.
+ כך שהאינדקס 
+\begin_inset Formula $i=1$
+\end_inset
+
+ אם סינגלטון 
+\begin_inset Formula $\{i\}$
+\end_inset
+
+ הוא חלק מהאיחוד: 
+\begin_inset Formula 
+\[
+\begin{gathered}X=\{0,1\}^{n}\\
+C=\left\{ \left(\begin{array}{c}
+1\\
+0\\
+\vdots\\
+0
+\end{array}\right),\left(\begin{array}{c}
+0\\
+1\\
+\vdots\\
+0
+\end{array}\right),\ldots,\left(\begin{array}{c}
+0\\
+0\\
+\vdots\\
+1
+\end{array}\right)\right\} \subset X\\
+I\subseteq\{1,2,\ldots,n\}:=[n]
+\end{gathered}
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula $h_{I}(x\in C)=\left(\sum_{i\in I}x_{i}\right)\bmod2$
+\end_inset
+
+ מייצרת את התוויות הבאות:
+\begin_inset Formula 
+\[
+\begin{gathered}I=\emptyset:h_{\emptyset}\left(\begin{array}{c}
+1\\
+0\\
+\vdots\\
+0
+\end{array}\right)=h_{\emptyset}\left(\begin{array}{c}
+0\\
+1\\
+\vdots\\
+0
+\end{array}\right)=\cdots h_{\emptyset}\left(\begin{array}{c}
+0\\
+0\\
+\vdots\\
+1
+\end{array}\right)=0\rightarrow\text{ label }00\ldots0\\
+I=\{1\}:h_{\{1\}}\left(\begin{array}{c}
+1\\
+0\\
+\vdots\\
+0
+\end{array}\right)=1,h_{\{1\}}\left(\begin{array}{c}
+0\\
+1\\
+\vdots\\
+0
+\end{array}\right)=0\ldots h_{\emptyset}\left(\begin{array}{c}
+0\\
+0\\
+\vdots\\
+1
+\end{array}\right)=0\rightarrow\text{ label }10\ldots0\\
+I=\{n\}:h_{\{1\}}\left(\begin{array}{c}
+1\\
+0\\
+\vdots\\
+0
+\end{array}\right)=0,h_{\{1\}}\left(\begin{array}{c}
+0\\
+1\\
+\vdots\\
+0
+\end{array}\right)=0\ldots h_{\emptyset}\left(\begin{array}{c}
+0\\
+0\\
+\vdots\\
+1
+\end{array}\right)=1\rightarrow\text{ label }00\ldots1
+\end{gathered}
+\]
+
+\end_inset
+
+ ועבור כל 
+\begin_inset Formula $i$
+\end_inset
+
+ שאינו סינגלטון הוא קומבינציה של סטים של תוויות של סינגלטונס.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נראה כי מימד 
+\begin_inset Formula $VC$
+\end_inset
+
+ של המחלקה שווה ל 
+\begin_inset Formula $2k$
+\end_inset
+
+ ואם 
+\begin_inset Formula $k$
+\end_inset
+
+ אינו מוגבל אזי המימד אינסופי.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+תחילה נראה כי 
+\begin_inset Formula $VCdim\left(H_{k\text{ intervals }}\right)\geq2k$
+\end_inset
+
+: 
+\series default
+כל תוית מגודל 
+\begin_inset Formula $2k$
+\end_inset
+
+ יכולה להיווצר תוך 
+\begin_inset Formula $k$
+\end_inset
+
+ איטרציות, המקרה הגרוע עבור תווית עבור מספר מרווחים שבהם אנו צריכים להשתמש,
+\end_layout
+
+\begin_layout Standard
+זה כאשר אין לנו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+ מכיוון שעבור כל חזרה של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אנו יכולים להשתמש במרווח בכדי לכלול את כולם.א
+\begin_inset Quotes erd
+\end_inset
+
+כ עבור 
+\begin_inset Formula $k$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1-
+\numeric off
+ים לא סמוכים צריכים להיות לנו 
+\begin_inset Formula $k$
+\end_inset
+
+ מרווחים, יתרה מזאת תווית בגודל 
+\begin_inset Formula $2k$
+\end_inset
+
+ יש לכל היותר 
+\begin_inset Formula $k$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1-
+\numeric off
+ים לא בסמוכים, כי בין כל שני אחדים יהיה לפחות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אחד.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נראה כי 
+\begin_inset Formula $VCdim\left(H_{k\text{ intervals }}\right)\leq2k$
+\end_inset
+
+: 
+\series default
+נניח בשלילה כי קיימת קבוצה בגודל 
+\begin_inset Formula $2k+1$
+\end_inset
+
+ שיכולה לנתץ את המחלקה.
+ א
+\begin_inset Quotes erd
+\end_inset
+
+כ אנו יכולים לייצר תווית עם אחדים לא צמודים ואפסים לא צמודים.
+ בסתירה לכך ש 
+\begin_inset Formula $k+1$
+\end_inset
+
+ אחדים לא צמודים יכולים להיווצר רק ע
+\begin_inset Quotes erd
+\end_inset
+
+י 
+\begin_inset Formula $k+1$
+\end_inset
+
+מרווחים.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+הוכחנו שני צרדיים כל א
+\begin_inset Quotes erd
+\end_inset
+
+ש ולכן מתקיים השוויון הנדרש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נוכיח כי 
+\begin_inset Formula $\varepsilon_{1}\leq\varepsilon_{2}\rightarrow m_{H}\left(\varepsilon_{1},\delta\right)\geq m_{H}\left(\varepsilon_{2},\delta\right)$
+\end_inset
+
+: 
+\series default
+נניח בשלילה כי 
+\begin_inset Formula $\varepsilon_{1}\leq\varepsilon_{2}$
+\end_inset
+
+ אבל 
+\begin_inset Formula $m_{H}\left(\varepsilon_{1},\delta\right)<m_{H}\left(\varepsilon_{2},\delta\right)$
+\end_inset
+
+, מההגדרה 
+\begin_inset Formula $m_{H}\left(\varepsilon_{2},\delta\right)$
+\end_inset
+
+ היא המספר המינימלי של הדגימות בכדי שנוכל להשיג את 
+\begin_inset Formula $D^{m}\left(\left\{ S:L_{D,f}\left(h_{S}\right)\leq\varepsilon\right\} \right)\geq1-\delta_{2}$
+\end_inset
+
+ אך מההנחה קיבלנו ש 
+\begin_inset Formula $D^{m}\left(\left\{ S:L_{D,f}\left(h_{S}\right)\leq\varepsilon\})\geq1-\delta_{1}\geq1-\delta_{2}\right.\right.$
+\end_inset
+
+ נשתמש ב 
+\begin_inset Formula $m_{H}\left(\varepsilon,\delta_{1}\right)<m_{H}\left(\varepsilon,\delta_{2}\right)$
+\end_inset
+
+ במילים אחרות - השתמשנו בפחות דגימות בכדי להדיג 
+\begin_inset Formula $accuracy$
+\end_inset
+
+ טובה יותר בסתירה.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Formula $\operatorname{VCdim}\left(H_{i}\right)=d_{i}\text{ for }i\in\{1,2\}$
+\end_inset
+
+.
+ נניח בשלילה כי 
+\begin_inset Formula $d_{1}>d_{2}$
+\end_inset
+
+, לכן קיימת קבוצה 
+\begin_inset Formula $C=\{c_{1},c_{d_{1}}\}$
+\end_inset
+
+ שמנותצת ע
+\begin_inset Quotes erd
+\end_inset
+
+י 
+\begin_inset Formula $H_{1}$
+\end_inset
+
+ אך לא ע
+\begin_inset Quotes erd
+\end_inset
+
+י 
+\begin_inset Formula $'H_{2}$
+\end_inset
+
+כלומר קיים 
+\begin_inset Formula $h_{1}\in H_{2}$
+\end_inset
+
+ כך שבהינתן 
+\begin_inset Formula $C$
+\end_inset
+
+ מייצרת כל תווית.
+ מכיוון ש 
+\begin_inset Formula $H_{1}\subseteq H_{2}$
+\end_inset
+
+אזי 
+\begin_inset Formula $h_{1}\in H_{2}$
+\end_inset
+
+ ולכן גם 
+\begin_inset Formula $H_{2}$
+\end_inset
+
+ מנתצת את 
+\begin_inset Formula $C$
+\end_inset
+
+ .
+ בסתירה לכך שמימד 
+\begin_inset Formula $VC$
+\end_inset
+
+ שלה קטן ממימד של 
+\begin_inset Formula $H_{1}$
+\end_inset
+
+.
+ לכן קיבלנו
+\begin_inset Formula 
+\[
+H_{1}\subseteq H_{2}\Rightarrow\operatorname{VCdim}\left(H_{1}\right)\leq\operatorname{VCdim}\left(H_{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+7
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $H$
+\end_inset
+
+ מתכנסת באופן אחיד עם 
+\begin_inset Formula 
+\[
+m_{H}^{UC}:(0,1)^{2}\rightarrow\mathbb{N}\Rightarrow\forall(\varepsilon,\delta)\in(0,1)\forall D\text{ on }X\times Y
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+D^{m}\left(\left\{ S\in(X\times Y)^{m}:S\text{ is }\varepsilon\text{ representative }\right\} \right)\geq1-\delta
+\]
+
+\end_inset
+
+ מכיוון שטענה זו נכונה לכל 
+\begin_inset Formula $1<\varepsilon<1$
+\end_inset
+
+ נבחר 
+\begin_inset Formula $\varepsilon=\frac{\varepsilon}{2}$
+\end_inset
+
+ ולכן 
+\begin_inset Formula 
+\[
+D^{m}\left(\left\{ S\in(X\times Y)^{m}:S\text{ is }\varepsilon/2\text{ representative }\right\} \right)\geq1-\delta
+\]
+
+\end_inset
+
+ כעת, מכיוון ש 
+\begin_inset Formula $S$
+\end_inset
+
+ הוא 
+\begin_inset Formula $\varepsilon/2\text{ representative }$
+\end_inset
+
+ אנו יודעים ש 
+\begin_inset Formula 
+\[
+\mathrm{}L_{D}\left(h_{S}\right)\leq\min_{h\in H}L_{D}(h)+\varepsilon,\text{ where }h_{S}=\operatorname{argmin}L_{S\in H}(h)
+\]
+
+\end_inset
+
+ ומתקיים 
+\begin_inset Formula 
+\[
+D^{m}\left(\left\{ S:L_{D}\left(h_{S}\right)\leq\min_{h^{\prime}\in H}L_{d}(h)+\varepsilon\right\} \right)\geq1-\delta
+\]
+
+\end_inset
+
+ שזאת ההגדרה של 
+\begin_inset Formula $Agnostic-PAC$
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+8
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+טענה: 
+\begin_inset Formula $H$
+\end_inset
+
+ אינה למידה 
+\begin_inset Formula $Agnostic-PAC$
+\end_inset
+
+
+\series default
+.
+\begin_inset Newline newline
+\end_inset
+
+לפי הטענה מתקיים כי 
+\begin_inset Formula $A$
+\end_inset
+
+ תלויה ב 
+\begin_inset Formula $D$
+\end_inset
+
+, למרות שזה לא לפי הגדרת למידות 
+\begin_inset Formula $PAC$
+\end_inset
+
+ .
+ התלות הזו מציעה כי כל מחלקת היפותזות מספקת את התנאי.
+ 
+\end_layout
+
+\begin_layout Standard
+כדוגמה נגדית נגדיר מחלקת היפותזות 
+\begin_inset Formula $H$
+\end_inset
+
+ להיות מחלקת כל הפונקציות ממרחב 
+\begin_inset Formula $X$
+\end_inset
+
+ אינסופי, ראינו בכיצה כי היא לא למידת 
+\begin_inset Formula $PAC$
+\end_inset
+
+.
+ יתרה מזאת ראינו בכיה כי 
+\begin_inset Formula $H$
+\end_inset
+
+ למידה 
+\begin_inset Formula $PAC$
+\end_inset
+
+ אמ
+\begin_inset Quotes erd
+\end_inset
+
+מ היא למידה 
+\begin_inset Formula $Agnostic-PAC$
+\end_inset
+
+, מכיוון שהמחלקה הזאת אינה למידה 
+\begin_inset Formula $PAC$
+\end_inset
+
+ היא גם לא למידה 
+\begin_inset Formula $Agnostic-PAC$
+\end_inset
+
+ אפילו שהיא מספקת את הטענה.
+ 
+\end_layout
+
+\begin_layout Part
+\begin_inset Formula $Practical$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+ניתן לראות כי ככל שאנו לוקחים בחשבון יותר מסווגים התוצאה שלנו משיגה 
+\begin_inset Formula $loss$
+\end_inset
+
+ קטן יותר.בנוסף סט האימון משיג תוצאה טובה יותר כי הלומד ראה כבר את הנקודות
+ האלו וסיווג לפיהן.
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename q1 adaboost error.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename q2 decision boundaries - test.jpg
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q3.jpg
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הטעות המינימלית מתקבלת כאשר מספר האיטרציות שווה ל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+161
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+והיא שווה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0.04
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+אנו רואים כי הנקודות שטעינו עליהן קיבלו משקל גבוה יותר לפעם הבאה ולכן הנקודות
+ הגדולות הן הקשות יותר לסיווג, לעומתן הנקודות הקטנות הן הקלות יותר והמסווג
+ בטוח לגביהן.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q4.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename q5.1.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q5.2.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q5.3.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q5.4.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נשים לב כי מכיוון שיש רעש הלומד 
+\begin_inset Quotes eld
+\end_inset
+
+רודף
+\begin_inset Quotes erd
+\end_inset
+
+ אחרי הדאטה נגרם 
+\begin_inset Formula $overfit$
+\end_inset
+
+ ולכן בשלב מסויים ככל שאנו מוספים מסווגים ה 
+\begin_inset Formula $loss$
+\end_inset
+
+ רק עולה.
+\end_layout
+
+\end_body
+\end_document
