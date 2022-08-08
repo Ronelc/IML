@@ -1,0 +1,1744 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+
+% Convert the Lyx colors into more pleasent colors:
+\usepackage{xcolor}
+\definecolor{blue}{RGB}{14,107,217}
+\definecolor{green}{RGB}{0,158,40}
+\definecolor{red}{RGB}{235,16,16}
+\definecolor{brown}{RGB}{164,66,0}
+\definecolor{orange}{RGB}{231,135,26}
+\definecolor{purple}{RGB}{94,53,177}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing double
+\align center
+
+\series bold
+\size huge
+)
+\numeric on
+67329
+\numeric off
+( 
+\begin_inset Formula $IML$
+\end_inset
+
+ | תרגיל
+\family roman
+\shape up
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם: רונאל חרדים | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+208917641
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+\begin_inset Formula $Theoretical:$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $T:V\Rightarrow W$
+\end_inset
+
+ ה
+\begin_inset Quotes erd
+\end_inset
+
+ל ו 
+\begin_inset Formula $A$
+\end_inset
+
+ מטריצה תואמת, נוכיח כי אם 
+\begin_inset Formula $A$
+\end_inset
+
+ אורתוגונלית אזי 
+\begin_inset Formula $\forall x\in V\ \ \|Ax\|=\|x\|$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+אנו יודעים ש 
+\begin_inset Formula $A$
+\end_inset
+
+ אורתוגונלית, כלומר מרחב העמודות והשורות של המטריצה הן מרחב אורתונורמלי,
+ כלומר הנורמה של הווקטורים שווה ל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לכן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\|Ax\|=||A||\cdot||x||=I||x||=||x||
+\]
+
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+נחשב את הפירוק של 
+\begin_inset Formula $A=U\Sigma V^{T}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+A=\left[\begin{array}{ccc}
+1 & 1 & 0\\
+1 & -1 & 2
+\end{array}\right]
+\]
+
+\end_inset
+
+ נחשב את המטריצות: 
+\begin_inset Formula 
+\[
+A^{T}A=V\Sigma^{2}V^{T}=\left[\begin{array}{cc}
+1 & 1\\
+1 & -1\\
+0 & 2
+\end{array}\right]\left[\begin{array}{ccc}
+1 & 1 & 0\\
+1 & -1 & 2
+\end{array}\right]=\left[\begin{array}{ccc}
+2 & 0 & 2\\
+0 & 2 & -2\\
+2 & -2 & 4
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+det\left(A^{T}A-\lambda I\right)=\left|\begin{array}{ccc}
+2-\lambda & 0 & 2\\
+0 & 2-\lambda & -2\\
+2 & -2 & 4-\lambda
+\end{array}\right|=-\lambda^{3}+8\lambda^{2}-12\lambda=-\lambda\left(\lambda-2\right)\left(\lambda-6\right))\Rightarrow0,2,6
+\]
+
+\end_inset
+
+ כעת נחשב: 
+\begin_inset Formula 
+\[
+A^{T}A-0I=\left[\begin{array}{ccc}
+2 & 0 & 2\\
+0 & 2 & -2\\
+2 & -2 & 4
+\end{array}\right]\Rightarrow eigenvector\left[\begin{array}{c}
+-1\\
+1\\
+1
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+A^{T}A-2I=\left[\begin{array}{ccc}
+0 & 0 & 2\\
+0 & 0 & -2\\
+2 & -2 & 2
+\end{array}\right]\Rightarrow eigenvector:\left[\begin{array}{c}
+1\\
+1\\
+0
+\end{array}\right]\text{​}.
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+A^{T}A-6I=\left[\begin{array}{ccc}
+-4 & 0 & 2\\
+0 & -4 & -2\\
+2 & -2 & -2
+\end{array}\right]\Rightarrow eigenvector:\left[\begin{array}{c}
+\frac{1}{2}\\
+-\frac{1}{2}\\
+1
+\end{array}\right]
+\]
+
+\end_inset
+
+ לכן 
+\begin_inset Formula $V$
+\end_inset
+
+ היא:
+\begin_inset Formula 
+\[
+V=\left[\begin{array}{ccc}
+\frac{\sqrt{6}}{6} & \frac{\sqrt{2}}{2} & -\frac{\sqrt{3}}{3}\\
+-\frac{\sqrt{6}}{6} & \frac{\sqrt{2}}{2} & \frac{\sqrt{3}}{3}\\
+\frac{\sqrt{6}}{3} & 0 & \frac{\sqrt{3}}{3}
+\end{array}\right]
+\]
+
+\end_inset
+
+ המטריצה 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ היא:
+\begin_inset Formula 
+\[
+\Sigma=\left[\begin{array}{ccc}
+\sqrt{6} & 0 & 0\\
+0 & \sqrt{2} & 0
+\end{array}\right]
+\]
+
+\end_inset
+
+כעת נמצא את 
+\begin_inset Formula $U$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+u_{1}=\frac{1}{\sigma_{1}}\cdot\left[\begin{array}{ccc}
+1 & 1 & 0\\
+1 & -1 & 2
+\end{array}\right]\cdot v_{1}=\frac{1}{\sqrt{6}}\cdot\left[\begin{array}{ccc}
+1 & 1 & 0\\
+1 & -1 & 2
+\end{array}\right]\cdot\left[\begin{array}{c}
+\frac{\sqrt{6}}{6}\\
+-\frac{\sqrt{6}}{\sqrt{6}}\\
+\frac{\sqrt{3}}{3}
+\end{array}\right]=\left[\begin{array}{l}
+0\\
+1
+\end{array}\right]
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+u_{2}=\frac{1}{\sigma_{2}}\cdot\left[\begin{array}{ccc}
+1 & 1 & 0\\
+1 & -1 & 2
+\end{array}\right]\cdot v_{2}=\frac{1}{\sqrt{2}}\cdot\left[\begin{array}{ccc}
+1 & 1 & 0\\
+1 & -1 & 2
+\end{array}\right]\cdot\left[\begin{array}{c}
+\frac{\sqrt{2}}{2}\\
+\frac{\sqrt{2}}{2}\\
+0
+\end{array}\right]=\left[\begin{array}{l}
+1\\
+0
+\end{array}\right]\text{ }
+\]
+
+\end_inset
+
+ קיבלנו ש:
+\begin_inset Formula 
+\[
+U=\left[\begin{array}{cc}
+0 & 1\\
+1 & 0
+\end{array}\right]
+\]
+
+\end_inset
+
+ לכן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A=\left[\begin{array}{ccc}
+1 & 1 & 0\\
+1 & -1 & 2
+\end{array}\right]=\left[\begin{array}{cc}
+0 & 1\\
+1 & 0
+\end{array}\right]\left[\begin{array}{ccc}
+\sqrt{6} & 0 & 0\\
+0 & \sqrt{2} & 0
+\end{array}\right]\left[\begin{array}{ccc}
+\frac{\sqrt{6}}{6} & \frac{\sqrt{2}}{2} & -\frac{\sqrt{3}}{3}\\
+-\frac{\sqrt{6}}{6} & \frac{\sqrt{2}}{2} & \frac{\sqrt{3}}{3}\\
+\frac{\sqrt{6}}{3} & 0 & \frac{\sqrt{3}}{3}
+\end{array}\right]^{T}
+\]
+
+\end_inset
+
+כנדרש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נוכיח את האלגוריתם 
+\begin_inset Formula $Power-Iteration$
+\end_inset
+
+: 
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נוכיח כי מתקיים 
+\begin_inset Formula $\lim_{k\rightarrow\infty}b_{k}=\pm v_{1}$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+הווקטור 
+\begin_inset Formula $v_{1}$
+\end_inset
+
+ הוא ווקטור עצמי של ע
+\begin_inset Quotes erd
+\end_inset
+
+ע 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ ומקיים 
+\begin_inset Formula $Av_{1}=\lambda v_{i}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\lim_{k\rightarrow\infty}b_{k}=C_{0}^{k}\cdot b_{0}=\lim_{k\rightarrow\infty}C_{0}^{k}\sum_{i=1}^{n}a_{i}v_{i}=\lim_{k\rightarrow\infty}\sum_{i=1}^{n}a_{i}\lambda_{i}^{k}v_{i}=\lim_{k\rightarrow\infty}\lambda_{1}^{k}\left[a_{1}v_{1}+\sum_{i=2}^{n}a_{i}\left(\frac{\lambda_{i}}{\lambda_{1}}\right)^{k}v_{i}\right]\Rightarrow_{k\rightarrow\infty}\lambda_{1}^{k}
+\]
+
+\end_inset
+
+ מכיוון שמתקיים 
+\begin_inset Formula $\lambda_{1}>\lambda_{2}\geq\lambda_{3}...$
+\end_inset
+
+ אזי מתקיים כי החלק שבתוך הסוגריים מתכנס ל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כאשר 
+\begin_inset Formula $k\rightarrow\infty$
+\end_inset
+
+ לכן מתקיים כי הסדרה תתכנס ל 
+\begin_inset Formula $\lambda_{1}$
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נחשב את מטריצת יעקוביאן של הפונקציה הנתונה.
+\series default
+
+\begin_inset Formula 
+\[
+f(\sigma)=U\cdot diag(\sigma)U^{\top}x=\sum_{i=1}^{n}\sigma_{i}\boldsymbol{u}_{i}\boldsymbol{u}_{i}^{\top}\boldsymbol{x}
+\]
+
+\end_inset
+
+ עבור 
+\begin_inset Formula 
+\[
+diag(\sigma)_{ij}=\begin{cases}
+\sigma_{i} & i=j\\
+0 & i\neq j
+\end{cases}
+\]
+
+\end_inset
+
+
+\series bold
+תחילה נחשב את הנגזרות החלקיות של הפונקציה:
+\series default
+ נשים לב כי עבור כל 
+\begin_inset Formula $\sigma_{i}$
+\end_inset
+
+ הנגזרת החלקית בנקודה ה 
+\begin_inset Formula $i$
+\end_inset
+
+ שווה ל 
+\begin_inset Formula $u_{i,i}^{2}x_{i}$
+\end_inset
+
+, ובשאר הקורדינטות שווה ל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+לכן:
+\begin_inset Formula 
+\[
+\frac{\partial f_{j}\left(\sigma_{0}\right)}{\partial\sigma_{i}}=\left[u_{i}u_{i}^{\top}\boldsymbol{x}\right]_{j}
+\]
+
+\end_inset
+
+ ומתקיים כי השורה ה 
+\begin_inset Formula $i$
+\end_inset
+
+ שווה ל 
+\begin_inset Formula $u_{i}\cdot\left\langle u_{i},\boldsymbol{x}\right\rangle $
+\end_inset
+
+ לכן המטריצה היא:
+\begin_inset Formula 
+\[
+J_{\sigma}(f):=Udiag\left(U^{\top}\boldsymbol{x}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נשתמש בכלל השרשרת ונחשב את הגרדיאנט:
+\begin_inset Formula 
+\[
+h(\sigma)=\frac{1}{2}\|f(\sigma)-y\|^{2}
+\]
+
+\end_inset
+
+ נגדיר: 
+\begin_inset Formula $g(x)=||x||^{2}$
+\end_inset
+
+.
+ 
+\series default
+לפי כלל השרשת מתקיים 
+\begin_inset Formula $(f\circ g)^{\prime}:=\left(f^{\prime}\circ g\right)\cdot g^{\prime}$
+\end_inset
+
+ץ
+\end_layout
+
+\begin_layout Standard
+נחשב את הנגזרת של 
+\begin_inset Formula $g(x)$
+\end_inset
+
+: 
+\begin_inset Formula 
+\[
+g(x)'=\nabla f(\sigma)
+\]
+
+\end_inset
+
+עבור מה שחישבנו בשאלה קודמת.
+\end_layout
+
+\begin_layout Standard
+נחשב את הנגזרת של 
+\begin_inset Formula $f$
+\end_inset
+
+ ונקבל 
+\begin_inset Formula $\sigma$
+\end_inset
+
+.
+ בנוסף, בהרצאה הראינו כי הגרדינאט שווה לטרנספוז של המטריצה.
+ 
+\end_layout
+
+\begin_layout Standard
+לכן סה
+\begin_inset Quotes erd
+\end_inset
+
+כ נקבל כי: 
+\begin_inset Formula 
+\[
+\nabla h=(\sigma)(f(\sigma)-y)^{T}\nabla f(\sigma)
+\]
+
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נחשב את היעקוביאן של הפונקציה הבאה: 
+\series default
+
+\begin_inset Formula 
+\[
+S(\mathbf{x})_{j}=\frac{e^{x_{j}}}{\sum_{l=1}^{k}e^{x_{l}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $g_{i}(a)=e^{a_{i}}$
+\end_inset
+
+ ו 
+\begin_inset Formula $g_{i}(a)=e^{a_{i}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נקבל: 
+\begin_inset Formula 
+\[
+\frac{\partial S_{i}}{\partial a_{j}}=\frac{\partial}{\partial a_{j}}\frac{e^{a_{i}}}{\sum_{k=1}^{d}e^{a_{k}}}=\frac{\partial}{\partial a_{j}}\frac{g_{i}}{h}
+\]
+
+\end_inset
+
+ נשים לב כי הנגזרת של 
+\begin_inset Formula $h$
+\end_inset
+
+ שווה ל 
+\begin_inset Formula 
+\[
+h'=\begin{cases}
+e^{a_{j}} & i=j\\
+0 & else
+\end{cases}
+\]
+
+\end_inset
+
+ לכן מתקיים כי במקום ה 
+\begin_inset Formula $j$
+\end_inset
+
+ עבור 
+\begin_inset Formula $i=j$
+\end_inset
+
+: 
+\begin_inset Formula 
+\[
+\frac{\partial}{\partial a_{j}}\frac{e^{a_{i}}}{\sum_{k=1}^{N}e^{a_{k}}}=\frac{e^{a_{i}}\left(\sum_{k=1}^{N}e^{a_{k}}\right)-e^{a_{i}}e^{a_{j}}}{\left(\sum_{k=1}^{N}e^{a_{k}}\right)^{2}}=\frac{e^{a_{i}}}{\left(\sum_{k=1}^{N}e^{a_{k}}\right)}\cdot\frac{\left(\sum_{k=1}^{N}e^{a_{k}}\right)-e^{a_{j}}}{\left(\sum_{k=1}^{N}e^{a_{k}}\right)}=S_{i}\left(1-S_{j}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ונקבל כי מטריצת יעקוביאן של הפונקציה 
+\begin_inset Formula $S$
+\end_inset
+
+ בקאורדינטה ה 
+\begin_inset Formula $i,j$
+\end_inset
+
+ מכילה את 
+\begin_inset Formula 
+\[
+S_{i}(x)\left(\delta_{ij}-S_{j}(x)\right)
+\]
+
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+7
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נחשב את ההסיאן של הפונקציה 
+\begin_inset Formula $x^{3}-5xy-y^{5}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+כפי שהזכרנו בתרגול, ההסיאן היא נגזרת של 
+\begin_inset Formula $f$
+\end_inset
+
+ פעמיים - פעם אחת לפי 
+\begin_inset Formula $x$
+\end_inset
+
+ ופעם שניה לפי 
+\begin_inset Formula $y$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+תחילה נגזור לפי 
+\begin_inset Formula $x$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}=3x^{2}-5x
+\]
+
+\end_inset
+
+כעת נגזור לפי 
+\begin_inset Formula $y$
+\end_inset
+
+: 
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial y}=-5y-5y^{4}
+\]
+
+\end_inset
+
+נגזור פעם שניה לפי 
+\begin_inset Formula $x$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial x^{2}}=6x-5
+\]
+
+\end_inset
+
+נגזור פעם שניה לפי 
+\begin_inset Formula $y$
+\end_inset
+
+:
+\series bold
+
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial y^{2}}=-5-20y^{3}
+\]
+
+\end_inset
+
+קיבלנו כי המטריצה היא:
+\series default
+
+\begin_inset Formula 
+\[
+H_{i,j}=\left(\begin{array}{cc}
+6x & -5\\
+-5 & -20y^{3}
+\end{array}\right)
+\]
+
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+8
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+נתונות דגימות 
+\begin_inset Formula $x_{1},x_{2}...$
+\end_inset
+
+ ב
+\begin_inset Quotes erd
+\end_inset
+
+ת בעלות אותה התפלגות, עם תוחלת ושונות סופית.
+ נראה כי אומד ממוצע המדגם 
+\begin_inset Formula $\hat{\mu}_{n}=\frac{1}{n}\sum x_{i}$
+\end_inset
+
+ המחושב על 
+\begin_inset Formula $n$
+\end_inset
+
+ דגימות הוא קבוע.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+כלומר צ
+\begin_inset Quotes erd
+\end_inset
+
+ל 
+\begin_inset Formula $\lim_{n\rightarrow\infty}\hat{\mu}_{n}=\mu$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+ראינו בהרצאה כי מתקיים 
+\begin_inset Formula $\mathbb{E}\left[\hat{\mu}_{n}\right]=\mu$
+\end_inset
+
+, לכן נותר להוכיח ש 
+\begin_inset Formula $var\left[\hat{\mu}_{n}\right]\rightarrow_{n\rightarrow\infty}0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{n\rightarrow\infty}Var\left(\hat{\mu}_{n}\right)=\lim_{n\rightarrow\infty}Var\left(\frac{1}{n}\sum_{i=1}^{n}x_{i}\right)=\lim_{n\rightarrow\infty}\frac{1}{n^{2}}Var\left(\sum_{i=1}^{n}x_{i}\right)=\lim_{n\rightarrow\infty}\frac{1}{n^{2}}\cdot n\cdot\sigma^{2}=\lim_{n\rightarrow\infty}\frac{\sigma^{2}}{n}\stackrel{1}{=}0
+\]
+
+\end_inset
+
+ כאשר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נובע מסופיות שהשונות.
+ 
+\end_layout
+
+\begin_layout Standard
+כנדרש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+9
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נמצא את הדרוש:
+\end_layout
+
+\begin_layout Standard
+בהרצאה הראנו כי מתקיים עבור התפלגות נורמלית:
+\begin_inset Formula 
+\[
+X\sim\mathcal{N}\left(\left[\begin{array}{l}
+\mu_{1}\\
+.\\
+.\\
+\mu_{d}
+\end{array}\right],\left[\begin{array}{cccc}
+\sigma_{1}^{1} & 0 & 0 & 0\\
+0 & . & 0 & 0\\
+0 & 0 & . & 0\\
+0 & 0 & 0 & \sigma_{d}^{d}
+\end{array}\right]\right)
+\]
+
+\end_inset
+
+ וגם, עבור 
+\begin_inset Formula $x_{i}\in X$
+\end_inset
+
+ מתקיים: 
+\begin_inset Formula 
+\[
+f\left(x_{i}\right)=\frac{1}{\sqrt{2\pi\sigma_{i}^{2}}}\exp\left(-\frac{1}{2}\left(\frac{X_{i}-\mu_{i}}{\sigma_{i}}\right)^{2}\right)
+\]
+
+\end_inset
+
+ הגדרנו שפונקציית הנראות שווה ל 
+\begin_inset Formula $\mathcal{C}(\boldsymbol{\theta}\mid x):=f_{\boldsymbol{\theta}}(x)$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+נחשב עבור 
+\begin_inset Formula $X$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+נתון שהמשתנים מתפלגים נורמלית וב
+\begin_inset Quotes erd
+\end_inset
+
+ת לכן ההסתברות שווה למכפלה, ונקבל:
+\begin_inset Formula 
+\[
+\mathcal{C}(\boldsymbol{\theta}\mid x):=f_{\boldsymbol{\theta}}(X)=\prod_{i=1}^{m}f_{\boldsymbol{\theta}}(x_{i})=\prod_{i=1}^{m}\frac{1}{\sqrt{2\pi\sigma_{i}^{2}}}\exp\left(-\frac{1}{2}\left(\frac{X_{i}-\mu_{i}}{\sigma_{i}}\right)^{2}\right)=\frac{m}{\sqrt{2\pi\sigma_{i}^{2}}}\exp\left(-\frac{1}{2\sigma^{2}}\sum_{i=1}^{m}\left(x_{i}-\mu\right)^{2}\right)
+\]
+
+\end_inset
+
+
+\series bold
+ כעת נחשב את 
+\begin_inset Formula $log\ liklihood$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+ln\left[\frac{m}{\sqrt{2\pi\sigma_{i}^{2}}}\exp\left(-\frac{1}{2\sigma^{2}}\sum_{i=1}^{m}\left(x_{i}-\mu\right)^{2}\right)\right]=ln\left[\frac{m}{\sqrt{2\pi\sigma_{i}^{2}}}\right]+ln\left[\exp\left(-\frac{1}{2\sigma^{2}}\sum_{i=1}^{m}\left(x_{i}-\mu\right)^{2}\right)\right]=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+-\frac{m}{2}\ln\left(2\pi\sigma^{2}\right)-\frac{1}{2\sigma^{2}}\sum_{i=1}^{m}\left(x_{i}-\mu\right)^{2}=-\frac{m}{2}\ln(2\pi)-\frac{m}{2}\ln\left(\sigma^{2}\right)-\frac{1}{2\sigma^{2}}\sum_{i=1}^{m}\left(x_{i}-\mu\right)^{2}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Part
+\begin_inset Formula $Practical:$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+הגרף שקיבלנו:
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename q_2.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+הגרף שקיבלנו.
+\end_layout
+
+\begin_layout Standard
+ניתן להסיק מהגרף כי הערכים מתפלגים נורמלית סביב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename q_3.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+גרף ה 
+\begin_inset Formula $heatmap$
+\end_inset
+
+ הוא: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q_5.png
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+מהגרף ניתן לראות כי הערך המקסימלי מתקבל כאשר 
+\begin_inset Formula $f1\colonapprox0,f3\colonapprox4$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+6
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+הערך המקסימלי מתקבל ע
+\begin_inset Quotes erd
+\end_inset
+
+י 
+\begin_inset Formula $f1=-0.050,f3=3.970$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
